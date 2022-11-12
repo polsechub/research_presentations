@@ -30,7 +30,7 @@ css: styles.css
 -   Multimethod: Qualitative & quantitative
 
 
-##  {background-image="input/yearly_piracy_all.png" background-size="90%"}
+##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
 
 
 
