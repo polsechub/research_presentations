@@ -11,42 +11,21 @@
     "href": "index.html#intro",
     "title": "Research Presentation",
     "section": "Intro",
-    "text": "Intro\n\nBackground\nUN Peacekeeping (Sudan)\nEnter academia"
+    "text": "Intro\n\nA part of the research project on Maritime Security"
   },
   {
-    "objectID": "index.html#scholar-identity",
-    "href": "index.html#scholar-identity",
+    "objectID": "index.html#research",
+    "href": "index.html#research",
     "title": "Research Presentation",
-    "section": "Scholar Identity",
-    "text": "Scholar Identity\n\nInterdisciplinary\nPolicy-focus\nMultimethod: Qualitative & quantitative"
+    "section": "Research",
+    "text": "Research\n\nInterdisciplinary\nPolicy-focus\nMultimethod: Qualitative & quantitative"
   },
   {
-    "objectID": "index.html#teaching-identity",
-    "href": "index.html#teaching-identity",
+    "objectID": "index.html#research-1",
+    "href": "index.html#research-1",
     "title": "Research Presentation",
-    "section": "Teaching Identity",
-    "text": "Teaching Identity\n\nCritical thinking & communication\n\nEmpathy\nConceptual clarity\nAnalytical Skills\n\nProblem understanding and problem-solving\nStrategic ambiguity (breaking the rubric mindset)\nChallenge them!"
-  },
-  {
-    "objectID": "index.html#teaching-identity-1",
-    "href": "index.html#teaching-identity-1",
-    "title": "Research Presentation",
-    "section": "Teaching Identity",
-    "text": "Teaching Identity\n\nTeaching classes on: conflict, peace and security\n\nE.g. Capstone (G) National & International Security\n\nSecurity Studies minor coordinator\n\nRevised curriculum\n\n\nCollaborated w/ History, Criminal justice & Comms\n\nUniversity governance: Faculty senate for 2 years\nCommittee: Develop BS & MS in Public Policy"
-  },
-  {
-    "objectID": "index.html#research-identity",
-    "href": "index.html#research-identity",
-    "title": "Research Presentation",
-    "section": "Research Identity",
-    "text": "Research Identity\n\nResearch Areas"
-  },
-  {
-    "objectID": "index.html#research-identity-1",
-    "href": "index.html#research-identity-1",
-    "title": "Research Presentation",
-    "section": "Research Identity",
-    "text": "Research Identity\n\nHow can I understand the problems better so we can devise policy recommendations?\nDoD funded projects\n\nMINERVA: 2020-2023 (With Uni of Tennessee), $689,000\nDECUR proposal (With Naval War College in Rhode Island)\n\nCenter for Social Impact, UNCW"
+    "section": "Research",
+    "text": "Research\n\nHow can I understand the problems better so we can devise policy recommendations?\nDoD funded projects\n\nMINERVA: 2020-2023 (With Uni of Tennessee), $689,000\nDECUR proposal (With Naval War College in Rhode Island)\n\nCenter for Social Impact, UNCW"
   },
   {
     "objectID": "index.html#section-1",
@@ -91,13 +70,6 @@
     "text": "Hypotheses\nH1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.\n\nH2: Piracy incidents are more likely to occur in areas with high commercial vessel traffic.\n\nH3 (Interaction): Piracy incidents are more likely to occur in areas with high vessel traffic and a decline in illegal fishing."
   },
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
-    "title": "Research Presentation",
-    "section": "",
-    "text": "Research-Design\nCase Study: Indonesia\nUnit: Grid-Cell Analysis\nModel: Binary Time Series Cross-sectional model (Beck, Katz and Tucker 1998)"
-  },
-  {
     "objectID": "index.html#research-design",
     "href": "index.html#research-design",
     "title": "Research Presentation",
@@ -105,8 +77,8 @@
     "text": "Research Design\n\n\n\nDV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables (grid-cell level):\n\nDecline in IUU fishing (compared to previous year)\nOpportunity: Ship traffic\n\nControl variables:\n\nNight lights\nPorts\nSecurity force bases"
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
     "title": "Research Presentation",
     "section": "",
     "text": "Decrease=L.IUU – IUU\nIUU decrease=1 if decrease>10%\nIUU decrease=0, otherwise\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decrease\n1.852** (0.731)\n1.618*** (0.503)\n0.858 (0.616)\n\n\nVessel Traffic log (yearly mean)\n1.003*** (0.046)\n0.979*** (0.044)\n0.977*** (0.045)\n\n\nNear nightlight\n\n5.402*** (1.183)\n5.405*** (1.183)\n\n\nPort count\n\n1.379*** (0.160)\n1.379*** (0.161)\n\n\nPSDKP bases\n\n0.265 (0.352)\n0.262 (0.353)\n\n\nIUU decrease X Traffic\n\n\n0.166 (0.150)\n\n\nObservation\n66248\n66248\n66248"
@@ -133,8 +105,8 @@
     "text": "Decrease in legal fishing, opportunity, & piracy"
   },
   {
-    "objectID": "index.html#section-4",
-    "href": "index.html#section-4",
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
     "title": "Research Presentation",
     "section": "",
     "text": "Conclusion\n\nIllegal fishing is associated with piracy, but not simple correlation\nIn Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained\nWithout addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy"

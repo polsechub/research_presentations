@@ -15,13 +15,13 @@ css: styles.css
 
 ## Intro {.centit}
 
--   Background
--   UN Peacekeeping (Sudan)
--   Enter academia
+-   A part of the research project on Maritime Security
 
-![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"}
+ 
 
-## Scholar Identity
+<!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
+
+## Research
 
 -   Interdisciplinary
 
@@ -29,55 +29,12 @@ css: styles.css
 
 -   Multimethod: Qualitative & quantitative
 
-::: {style="text-align: center;"}
-<img src="input/Rlogo_small.png" width="100px"/>
-:::
 
-## Teaching Identity
+##  {background-image="input/yearly_piracy_all.png" background-size="100%"}
 
--   Critical thinking & communication
-    -   Empathy
 
-    -   Conceptual clarity
 
-    -   Analytical Skills
--   Problem understanding and problem-solving
--   Strategic ambiguity (breaking the rubric mindset)
--   Challenge them!
-
-## Teaching Identity
-
--   Teaching classes on: conflict, peace and security
-
-    > E.g. Capstone (G) National & International Security
-
--   Security Studies minor coordinator
-
-    > Revised curriculum
-
-    > Collaborated w/ History, Criminal justice & Comms
-
--   University governance: Faculty senate for 2 years
-
--   Committee: Develop BS & MS in Public Policy
-
-## Research Identity
-
-::: {style="text-align: center"}
-Research Areas
-
-::: r-stack
-![](input/terrorism_trust.png){.fragment width="550"}
-
-![](input/2020_Darfur.png){.fragment width="600" height="450"}
-
-![](input/2022_interstate.png){.fragment width="600" height="400"}
-:::
-:::
-
-## 
-
-## Research Identity
+## Research
 
 -   How can I understand the problems better so we can devise policy recommendations?
 
@@ -150,15 +107,7 @@ linkStyle default stroke:white,stroke-width:4px,TextColor:white;
 
 <!-- &emsp; Adds 4 spaces, and ;&ensp; Adds 2 spaces -->
 
-##  {background-image="input/world_gridcell_piracy.png" background-size="100%"}
 
-[Research-Design]{.r-fit-text}
-
-[Case Study: Indonesia]{.r-fit-text}
-
-[Unit: Grid-Cell Analysis]{.r-fit-text}
-
-[Model: Binary Time Series Cross-sectional model (Beck, Katz and Tucker 1998)]{.r-fit-text}
 
 ## Research Design {.smaller}
 
