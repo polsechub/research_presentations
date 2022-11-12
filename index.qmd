@@ -1,11 +1,265 @@
 ---
-title: "research_presentations"
+title: "Research Presentation"
+author: "Anup Phayal"
+date: " "
+categories: [UTRGV]
+format:
+  revealjs:
+    highlight-style: github
+    slide-number: c/t
+    theme: custom.scss
+css: styles.css
 ---
 
-This is a Quarto website.
+<!-- https://anupphayal.github.io/gitblog -->
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Intro {.centit}
 
-```{r}
-1 + 1
+-   Background
+-   UN Peacekeeping (Sudan)
+-   Enter academia
+
+![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"}
+
+## Scholar Identity
+
+-   Interdisciplinary
+
+-   Policy-focus
+
+-   Multimethod: Qualitative & quantitative
+
+::: {style="text-align: center;"}
+<img src="input/Rlogo_small.png" width="100px"/>
+:::
+
+## Teaching Identity
+
+-   Critical thinking & communication
+    -   Empathy
+
+    -   Conceptual clarity
+
+    -   Analytical Skills
+-   Problem understanding and problem-solving
+-   Strategic ambiguity (breaking the rubric mindset)
+-   Challenge them!
+
+## Teaching Identity
+
+-   Teaching classes on: conflict, peace and security
+
+    > E.g. Capstone (G) National & International Security
+
+-   Security Studies minor coordinator
+
+    > Revised curriculum
+
+    > Collaborated w/ History, Criminal justice & Comms
+
+-   University governance: Faculty senate for 2 years
+
+-   Committee: Develop BS & MS in Public Policy
+
+## Research Identity
+
+::: {style="text-align: center"}
+Research Areas
+
+::: r-stack
+![](input/terrorism_trust.png){.fragment width="550"}
+
+![](input/2020_Darfur.png){.fragment width="600" height="450"}
+
+![](input/2022_interstate.png){.fragment width="600" height="400"}
+:::
+:::
+
+## 
+
+## Research Identity
+
+-   How can I understand the problems better so we can devise policy recommendations?
+
+-   DoD funded projects
+
+    > MINERVA: 2020-2023 (With Uni of Tennessee), \$689,000
+    >
+    > DECUR proposal (With Naval War College in Rhode Island)
+
+-   Center for Social Impact, UNCW
+
+<!-- layout="[[-1], [1], [-1]] IS improvisation for verticle alignment -->
+
+## 
+
+::: {style="font-size: 1.8em; text-align: center"}
+All Maritime Crimes Are Local: Understanding the Causal Link Between Illegal Fishing & Maritime Piracy
+:::
+
+## Is there a systematic association between piracy events & illegal Fishing?
+
+-   Past works: Illegal fishing & piracy correlated
+-   **Foreign trawlers** --\> Deplete fishery --\> Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
+-   Seemingly plausible, but lacks evidence (Denton and Harris 2021; Jesperson 2022)
+
+## Local milieu
+
+Local illegal fishers --\> turn to piracy --\> when there is a constrain on illegal fishing & near target-rich high shipping areas
+
+![](input/pirates_by_frecon.jpg){style="height: 70%;" fig-align="center"}
+
+::: {style="font-size: .5em; text-align: center; margin: -1em;"}
+Photo credit: Eric Frécon
+:::
+
+<!-- for centering heading-2 below, see .css file -->
+
+<!-- ## Piracy world-wide -->
+
+<!-- ![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"} -->
+
+## Local milieu: Indonesia case
+
+![](input/legal_iuuf.png){style="width: 100%;" fig-align="center;"}
+
+## Mechanism {.centit}
+
+```{mermaid}
+%%|position: 'center'
+flowchart TB
+  A["<br/>  Potential (local)  <br/> IUUF perpetrators&ensp;  <br/> #160;"]---B["<br/>  Constraint due to enforcement&emsp; <br/> or other reasons <br/> (Observe decline in illegal catch)&emsp; <br/> #160;"]
+  B---C["Presence of opportunity&emsp; "]
+  C---D["Piracy events&emsp; "]
+  
+linkStyle default stroke:white,stroke-width:4px,TextColor:white; 
+   
 ```
+
+## Hypotheses {.centit}
+
+*H1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.*
+
+<br/>
+
+*H2: Piracy incidents are more likely to occur in areas with high commercial vessel traffic.*
+
+<br/>
+
+*H3 (Interaction): Piracy incidents are more likely to occur in areas with high vessel traffic and a decline in illegal fishing.*
+
+<!-- &emsp; Adds 4 spaces, and ;&ensp; Adds 2 spaces -->
+
+##  {background-image="input/world_gridcell_piracy.png" background-size="100%"}
+
+[Research-Design]{.r-fit-text}
+
+[Case Study: Indonesia]{.r-fit-text}
+
+[Unit: Grid-Cell Analysis]{.r-fit-text}
+
+[Model: Binary Time Series Cross-sectional model (Beck, Katz and Tucker 1998)]{.r-fit-text}
+
+## Research Design {.smaller}
+
+::: container
+::: {.column width="50%"}
+<br />
+
+DV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
+
+<br />
+
+Independent variables (grid-cell level):
+
+-   Decline in IUU fishing (compared to previous year)
+-   Opportunity: Ship traffic
+
+Control variables:
+
+-   Night lights
+-   Ports
+-   Security force bases
+:::
+
+::: {.column width="45%"}
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+
+![](input/nlights_2009.png){style="height: 90%;" fig-align="center;"}
+
+![](input/vessel_traffic1.png){style="height: 90%;" fig-align="center;"}
+:::
+:::
+
+<!-- ## Piracy & fishing in Indonesia -->
+
+<!-- ![](input/piracy_fishing_indonesia.png){style="height: 90%;" fig-align="center;"} -->
+
+##  {.smaller}
+
+::: container
+::: {.column width="40%"}
+<br/>
+
+-   Decrease=L.IUU -- IUU
+
+-   IUU decrease=1 if decrease\>10%
+
+-   IUU decrease=0, otherwise
+:::
+
+::: {.column width="55%"}
+|                                    | ~(1)~                   | ~(2)~                   | ~(3)~                   |
+|--------------------|------------------|------------------|------------------|
+| ~IUU decrease~                     | ~1.852\*\*~ ~(0.731)~   | ~1.618\*\*\*~ ~(0.503)~ | ~0.858~ ~(0.616)~       |
+| ~Vessel Traffic log (yearly mean)~ | ~1.003\*\*\*~ ~(0.046)~ | ~0.979\*\*\*~ ~(0.044)~ | ~0.977\*\*\*~ ~(0.045)~ |
+| ~Near nightlight~                  |                         | ~5.402\*\*\*~ ~(1.183)~ | ~5.405\*\*\*~ ~(1.183)~ |
+| ~Port count~                       |                         | ~1.379\*\*\*~ ~(0.160)~ | ~1.379\*\*\*~ ~(0.161)~ |
+| ~PSDKP bases~                      |                         | ~0.265~ ~(0.352)~       | ~0.262~ ~(0.353)~       |
+| ~IUU decrease X Traffic~           |                         |                         | ~0.166~ ~(0.150)~       |
+| ~Observation~                      | ~66248~                 | ~66248~                 | ~66248~                 |
+
+: {tbl-colwidths="\[55,14,14, 14\]"}
+:::
+:::
+
+## Decrease in IUU, opportunity targets & piracy presence
+
+![](input/figure_5.png){style="height: 90%;" fig-align="center;"}
+
+## Different cutpoints of illegal fishing decline
+
+![](input/figure_6.png){style="height: 90%;" fig-align="center;"}
+
+<!-- ## Reported & Unreported Fishing {.centit} -->
+
+<!-- ![](input/fishing_trend_indonesia.png){style="width: 150%;" fig-align="center;"} -->
+
+## Decrease in legal fishing, opportunity, & piracy
+
+![](input/figure_8.png){style="height: 90%;" fig-align="center;"}
+
+##  {.smaller}
+
+::: container
+::: {.column width="30%"}
+![](input/Indonesia_Blows_Up.png){style="height: 20%;" fig-align="left;"}
+
+![](input/ship_blown.png){style="height: 60%;" fig-align="left;"}
+:::
+
+::: {.column width="10%" text-align="right;"}
+:::
+
+::: {.column width="45%"}
+<br/>
+
+**Conclusion**
+
+-   Illegal fishing is associated with piracy, but not simple correlation
+
+-   In Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained
+
+-   Without addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy
+:::
+:::
