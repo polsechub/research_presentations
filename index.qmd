@@ -131,7 +131,7 @@ December 2017
 
 ::: {.column width="42%"}
 
-January 2018
+
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/gog_2018_01_piracy_ais_raw.png){style="height: 90%;" fig-align="center;"}
