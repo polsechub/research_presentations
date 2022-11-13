@@ -121,17 +121,18 @@ January 2018
 
 ##  {.smaller}
 
+Vessel Types
 
 ::: container
 ::: {.column width="49%"}
-![](input/piechart_vesseltype_2014.png){style="height: 100%;" fig-align="left;"}
+![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
 
 :::
 
 ::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
-![](input/piechart_vesseltype_2019.png){style="height: 100%;" fig-align="right;"}
+![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
 
 :::
 :::
