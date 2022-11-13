@@ -10,13 +10,10 @@ format:
 css: styles.css
 ---
 
-<!-- https://anupphayal.github.io/gitblog -->
 
 ## Intro {.centit}
 
 -   A part of the research project on Maritime Security
-
- 
 
 <!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
 
@@ -29,8 +26,6 @@ css: styles.css
 -   Multimethod: Qualitative & quantitative
 
 ##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
-
-
 
 ## Research
 
@@ -45,10 +40,6 @@ css: styles.css
 -   Center for Social Impact, UNCW
 
 <!-- layout="[[-1], [1], [-1]] IS improvisation for verticle alignment -->
-
-
-
-
 
 ## 
 
@@ -78,9 +69,6 @@ Photo credit: Eric Frécon
 
 <!-- ![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"} -->
 
-
-
-
 ## Hypotheses {.centit}
 
 *H1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.*
@@ -95,16 +83,12 @@ Photo credit: Eric Frécon
 
 <!-- &emsp; Adds 4 spaces, and ;&ensp; Adds 2 spaces -->
 
-
-
-
 ## 
 
 June 2014
 
 ::: container
 ::: {.column width="45%"}
-
 ![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 
@@ -115,26 +99,27 @@ June 2014
 :::
 :::
 
-
-
 ## 
 
-
-
 ::: container
-::: {.column width="42%"}
+
+
+
+::: {.column width="46%"}
+
+![](input/gog_2017_12_piracy_ais_raw.png){style="height: 90%;" fig-align="left;"}
 
 December 2017
-
-![](input/gog_2017_12_piracy_ais_raw.png){style="height: 90%;" fig-align="center;"}
 :::
 
-::: {.column width="42%"}
 
-
+::: {.column width="46%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
-![](input/gog_2018_01_piracy_ais_raw.png){style="height: 90%;" fig-align="center;"}
+![](input/gog_2018_01_piracy_ais_raw.png){style="height: 90%;" fig-align="right;"}
+
+January 2018
+
 :::
 :::
 
@@ -153,7 +138,7 @@ December 2017
 
 ::: {.column width="55%"}
 |                                    | ~(1)~                   | ~(2)~                   | ~(3)~                   |
-|--------------------|------------------|------------------|------------------|
+|-------------------|------------------|------------------|------------------|
 | ~IUU decrease~                     | ~1.852\*\*~ ~(0.731)~   | ~1.618\*\*\*~ ~(0.503)~ | ~0.858~ ~(0.616)~       |
 | ~Vessel Traffic log (yearly mean)~ | ~1.003\*\*\*~ ~(0.046)~ | ~0.979\*\*\*~ ~(0.044)~ | ~0.977\*\*\*~ ~(0.045)~ |
 | ~Near nightlight~                  |                         | ~5.402\*\*\*~ ~(1.183)~ | ~5.405\*\*\*~ ~(1.183)~ |
