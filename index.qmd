@@ -88,11 +88,11 @@ Photo credit: Eric Frécon
 June 2014
 
 ::: container
-::: {.column width="45%"}
+::: {.column width="48%"}
 ![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 
-::: {.column width="45%"}
+::: {.column width="48%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
@@ -103,20 +103,18 @@ June 2014
 
 ::: container
 
+::: {.column width="49%"}
 
-
-::: {.column width="46%"}
-
-![](input/gog_2017_12_piracy_ais_raw.png){style="height: 90%;" fig-align="left;"}
+![](input/gog_2017_12_piracy_ais_raw.png){style="height: 100%;" fig-align="left;"}
 
 December 2017
 :::
 
 
-::: {.column width="46%"}
+::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
-![](input/gog_2018_01_piracy_ais_raw.png){style="height: 90%;" fig-align="right;"}
+![](input/gog_2018_01_piracy_ais_raw.png){style="height: 100%;" fig-align="right;"}
 
 January 2018
 
