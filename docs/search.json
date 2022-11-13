@@ -49,20 +49,6 @@
     "text": "Local milieu\nLocal illegal fishers –> turn to piracy –> when there is a constrain on illegal fishing & near target-rich high shipping areas\n\n\nPhoto credit: Eric Frécon"
   },
   {
-    "objectID": "index.html#local-milieu-indonesia-case",
-    "href": "index.html#local-milieu-indonesia-case",
-    "title": "Research Presentation",
-    "section": "Local milieu: Indonesia case",
-    "text": "Local milieu: Indonesia case"
-  },
-  {
-    "objectID": "index.html#mechanism",
-    "href": "index.html#mechanism",
-    "title": "Research Presentation",
-    "section": "Mechanism",
-    "text": "Mechanism\n\n\n\n\nflowchart TB\n  A[\"<br/>  Potential (local)  <br/> IUUF perpetrators&ensp;  <br/> #160;\"]---B[\"<br/>  Constraint due to enforcement&emsp; <br/> or other reasons <br/> (Observe decline in illegal catch)&emsp; <br/> #160;\"]\n  B---C[\"Presence of opportunity&emsp; \"]\n  C---D[\"Piracy events&emsp; \"]\n  \nlinkStyle default stroke:white,stroke-width:4px,TextColor:white;"
-  },
-  {
     "objectID": "index.html#hypotheses",
     "href": "index.html#hypotheses",
     "title": "Research Presentation",
@@ -70,15 +56,22 @@
     "text": "Hypotheses\nH1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.\n\nH2: Piracy incidents are more likely to occur in areas with high commercial vessel traffic.\n\nH3 (Interaction): Piracy incidents are more likely to occur in areas with high vessel traffic and a decline in illegal fishing."
   },
   {
-    "objectID": "index.html#research-design",
-    "href": "index.html#research-design",
-    "title": "Research Presentation",
-    "section": "Research Design",
-    "text": "Research Design\n\n\n\nDV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables (grid-cell level):\n\nDecline in IUU fishing (compared to previous year)\nOpportunity: Ship traffic\n\nControl variables:\n\nNight lights\nPorts\nSecurity force bases"
-  },
-  {
     "objectID": "index.html#section-2",
     "href": "index.html#section-2",
+    "title": "Research Presentation",
+    "section": "",
+    "text": "June 2014"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Research Presentation",
+    "section": "",
+    "text": "December 2017\n\n\n\n\n\n\n\nJanuary 2018"
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
     "title": "Research Presentation",
     "section": "",
     "text": "Decrease=L.IUU – IUU\nIUU decrease=1 if decrease>10%\nIUU decrease=0, otherwise\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decrease\n1.852** (0.731)\n1.618*** (0.503)\n0.858 (0.616)\n\n\nVessel Traffic log (yearly mean)\n1.003*** (0.046)\n0.979*** (0.044)\n0.977*** (0.045)\n\n\nNear nightlight\n\n5.402*** (1.183)\n5.405*** (1.183)\n\n\nPort count\n\n1.379*** (0.160)\n1.379*** (0.161)\n\n\nPSDKP bases\n\n0.265 (0.352)\n0.262 (0.353)\n\n\nIUU decrease X Traffic\n\n\n0.166 (0.150)\n\n\nObservation\n66248\n66248\n66248"
@@ -105,8 +98,8 @@
     "text": "Decrease in legal fishing, opportunity, & piracy"
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
     "title": "Research Presentation",
     "section": "",
     "text": "Conclusion\n\nIllegal fishing is associated with piracy, but not simple correlation\nIn Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained\nWithout addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy"

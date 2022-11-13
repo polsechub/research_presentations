@@ -2,7 +2,6 @@
 title: "Research Presentation"
 author: "Anup Phayal"
 date: " "
-categories: [UTRGV]
 format:
   revealjs:
     highlight-style: github
@@ -29,7 +28,6 @@ css: styles.css
 
 -   Multimethod: Qualitative & quantitative
 
-
 ##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
 
 
@@ -47,6 +45,10 @@ css: styles.css
 -   Center for Social Impact, UNCW
 
 <!-- layout="[[-1], [1], [-1]] IS improvisation for verticle alignment -->
+
+
+
+
 
 ## 
 
@@ -76,22 +78,8 @@ Photo credit: Eric Frécon
 
 <!-- ![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"} -->
 
-## Local milieu: Indonesia case
 
-![](input/legal_iuuf.png){style="width: 100%;" fig-align="center;"}
 
-## Mechanism {.centit}
-
-```{mermaid}
-%%|position: 'center'
-flowchart TB
-  A["<br/>  Potential (local)  <br/> IUUF perpetrators&ensp;  <br/> #160;"]---B["<br/>  Constraint due to enforcement&emsp; <br/> or other reasons <br/> (Observe decline in illegal catch)&emsp; <br/> #160;"]
-  B---C["Presence of opportunity&emsp; "]
-  C---D["Piracy events&emsp; "]
-  
-linkStyle default stroke:white,stroke-width:4px,TextColor:white; 
-   
-```
 
 ## Hypotheses {.centit}
 
@@ -109,40 +97,46 @@ linkStyle default stroke:white,stroke-width:4px,TextColor:white;
 
 
 
-## Research Design {.smaller}
+
+## 
+
+June 2014
 
 ::: container
-::: {.column width="50%"}
-<br />
+::: {.column width="45%"}
 
-DV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
-
-<br />
-
-Independent variables (grid-cell level):
-
--   Decline in IUU fishing (compared to previous year)
--   Opportunity: Ship traffic
-
-Control variables:
-
--   Night lights
--   Ports
--   Security force bases
+![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 
 ::: {.column width="45%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
-![](input/nlights_2009.png){style="height: 90%;" fig-align="center;"}
-
-![](input/vessel_traffic1.png){style="height: 90%;" fig-align="center;"}
+![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
 
-<!-- ## Piracy & fishing in Indonesia -->
 
-<!-- ![](input/piracy_fishing_indonesia.png){style="height: 90%;" fig-align="center;"} -->
+
+## 
+
+
+
+::: container
+::: {.column width="42%"}
+
+December 2017
+
+![](input/gog_2017_12_piracy_ais_raw.png){style="height: 90%;" fig-align="center;"}
+:::
+
+::: {.column width="42%"}
+
+January 2018
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+
+![](input/gog_2018_01_piracy_ais_raw.png){style="height: 90%;" fig-align="center;"}
+:::
+:::
 
 ##  {.smaller}
 
