@@ -10,7 +10,6 @@ format:
 css: styles.css
 ---
 
-
 ## Intro {.centit}
 
 -   A part of the research project on Maritime Security
@@ -99,19 +98,16 @@ June 2014
 :::
 :::
 
-## {.smaller}
+##  {.smaller}
 
-2-Hr Timestamp 
+2-Hr Timestamp
 
 ::: container
-
 ::: {.column width="49%"}
-
 ![](input/gog_2017_12_piracy_ais_raw.png){style="height: 100%;" fig-align="left;"}
 
 December 2017
 :::
-
 
 ::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
@@ -119,9 +115,30 @@ December 2017
 ![](input/gog_2018_01_piracy_ais_raw.png){style="height: 100%;" fig-align="right;"}
 
 January 2018
+:::
+:::
+
+
+##  {.smaller}
+
+
+::: container
+::: {.column width="49%"}
+![](input/piechart_vesseltype_2014.png){style="height: 100%;" fig-align="left;"}
+
+:::
+
+::: {.column width="49%"}
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+
+![](input/piechart_vesseltype_2019.png){style="height: 100%;" fig-align="right;"}
 
 :::
 :::
+
+
+
+
 
 ##  {.smaller}
 
