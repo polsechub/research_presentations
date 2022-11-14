@@ -27,7 +27,7 @@ css: styles.css
 | IUU fishing & piracy in Indonesia (Political Geography) | *Piracy & vessel traffic/trade*       | 
 | Covid & piracy   (IASR)                                    |                                         |
 | Maritime Piracy & Foreign Policy   (Oxford Research Encyclopedia)|            |
-| Blogs & media (The Washington Post, Political Violence at a Glance etc)|            |
+| Blogs & media (The Washington Post, Political Violence at a Glance, etc.)|            |
 : {tbl-colwidths="\[60,40\]"}
 
 
@@ -38,14 +38,14 @@ css: styles.css
 - Piracy is costly
 - International Maritime Bureau estimates: $1-9 bn/year
 - UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
-  - Direct costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years
+  - Direct costs (Ransom paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per year
   
 - What about indirect costs on trade?
 <!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
 
 ## Research Question
 
--   Consequences of maritime piracy
+-   Indirect consequences of maritime piracy
 
 - How does maritime piracy influence international trade (narrower: vessel traffic) ?
 
@@ -177,7 +177,7 @@ January 2018
 
 ##  {.smaller}
 
-Zooming in
+Zooming in further ...
 
 ::: container
 ::: {.column #vcenter width="49%"}
@@ -239,7 +239,9 @@ Where, $i$ is for grid-cell and $t$ is month, and  $\Delta Y_{it}$ is the change
 -   How does this translate into actual cost of disruption to trade?
 
 
-## Conclusion
 
- Questions/Comments
+
+
+
+## Questions/Comments {.centering}
 

@@ -1,8 +1,9 @@
 /* css styles */
 
 ```{css echo=FALSE}
-.column {
+.centering {
 text-align: center;
+vertical-align: middle;
 }
 ```
 ```{css echo=FALSE}
@@ -10,3 +11,4 @@ text-align: center;
 text-align: center;
 }
 ```
+
