@@ -64,16 +64,18 @@ css: styles.css
 
 
 
-##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
+##  Piracy & Trade 
+
+-   The problem of piracy peaked after mid-2000s
+-   Mainly driven by Somali pirates in the Gulf of Aden
+
+![](input/yearly_piracy_all.png){style="height: 120%;" fig-align="center"}
 
 
+## Piracy & Trade
 
-
-## Is there a systematic association between piracy events & illegal Fishing?
-
--   Past works: Illegal fishing & piracy correlated
--   **Foreign trawlers** --\> Deplete fishery --\> Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
--   Seemingly plausible, but lacks evidence (Denton and Harris 2021; Jesperson 2022)
+-   The problem of piracy peaked after mid-2000s
+-   Mainly driven by Somali pirates in the Gulf of Aden
 
 ## Local milieu
 

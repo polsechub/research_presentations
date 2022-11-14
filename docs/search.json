@@ -67,28 +67,28 @@
     "href": "index.html#section-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
-    "text": "June 2014"
+    "text": "2-Hr Timestamp\n\n\n\n\n\n\n\nDecember 2017\n\n\n\n\n\n\n\n\nJanuary 2018"
   },
   {
     "objectID": "index.html#section-2",
     "href": "index.html#section-2",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
-    "text": "2-Hr Timestamp\n\n\n\n\n\n\n\nDecember 2017\n\n\n\n\n\n\n\n\nJanuary 2018"
+    "text": "Vessel Types"
   },
   {
     "objectID": "index.html#section-3",
     "href": "index.html#section-3",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
-    "text": "Vessel Types"
+    "text": "Decrease=L.IUU – IUU\nIUU decrease=1 if decrease>10%\nIUU decrease=0, otherwise\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decrease\n1.852** (0.731)\n1.618*** (0.503)\n0.858 (0.616)\n\n\nVessel Traffic log (yearly mean)\n1.003*** (0.046)\n0.979*** (0.044)\n0.977*** (0.045)\n\n\nNear nightlight\n\n5.402*** (1.183)\n5.405*** (1.183)\n\n\nPort count\n\n1.379*** (0.160)\n1.379*** (0.161)\n\n\nPSDKP bases\n\n0.265 (0.352)\n0.262 (0.353)\n\n\nIUU decrease X Traffic\n\n\n0.166 (0.150)\n\n\nObservation\n66248\n66248\n66248"
   },
   {
     "objectID": "index.html#section-4",
     "href": "index.html#section-4",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
-    "text": "Decrease=L.IUU – IUU\nIUU decrease=1 if decrease>10%\nIUU decrease=0, otherwise\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decrease\n1.852** (0.731)\n1.618*** (0.503)\n0.858 (0.616)\n\n\nVessel Traffic log (yearly mean)\n1.003*** (0.046)\n0.979*** (0.044)\n0.977*** (0.045)\n\n\nNear nightlight\n\n5.402*** (1.183)\n5.405*** (1.183)\n\n\nPort count\n\n1.379*** (0.160)\n1.379*** (0.161)\n\n\nPSDKP bases\n\n0.265 (0.352)\n0.262 (0.353)\n\n\nIUU decrease X Traffic\n\n\n0.166 (0.150)\n\n\nObservation\n66248\n66248\n66248"
+    "text": "Conclusion\n\nIllegal fishing is associated with piracy, but not simple correlation\nIn Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained\nWithout addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy"
   },
   {
     "objectID": "index.html#decrease-in-iuu-opportunity-targets-piracy-presence",
@@ -117,5 +117,33 @@
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "Conclusion\n\nIllegal fishing is associated with piracy, but not simple correlation\nIn Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained\nWithout addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "",
+    "text": "June 2014"
+  },
+  {
+    "objectID": "index.html#piracy-trade",
+    "href": "index.html#piracy-trade",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "Piracy & Trade",
+    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden"
+  },
+  {
+    "objectID": "index.html#background-imageinputyearly_piracy_all.png-background-size80-.centerfalse",
+    "href": "index.html#background-imageinputyearly_piracy_all.png-background-size80-.centerfalse",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "{background-image=“input/yearly_piracy_all.png” background-size=“80%”} {.center=false}",
+    "text": "{background-image=“input/yearly_piracy_all.png” background-size=“80%”} {.center=false}\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden"
+  },
+  {
+    "objectID": "index.html#piracy-trade-1",
+    "href": "index.html#piracy-trade-1",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "Piracy & Trade",
+    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden"
   }
 ]
