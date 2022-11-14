@@ -75,7 +75,7 @@ css: styles.css
 -   The problem of piracy peaked after mid-2000s
 -   Mainly driven by Somali pirates in the Gulf of Aden
 -   International efforts to tackle piracy lowered
--   But increasing in other parts of the world - Gulf of Guinea
+-   But increasing in other parts of the world 
 -   Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces
 
 *H1: Piracy incidents are likely lower vessel traffic at the local level.*
@@ -83,18 +83,53 @@ css: styles.css
 
 ## Empirical Strategy
 
-- Focus on the Gulf of Guinea (Nigeria, )
+- Focus on the Gulf of Guinea (Nigeria, Benin, Togo, Cameroon, Ghana, Ivory Coast)
 
 -   Utilize two main datasets at this stage:
-  -   Dataset on Maritime Piracy
-  -   Vessel traffic 
+    -   Dataset on Maritime Piracy
+    -   Vessel traffic 
   
-## Empirical Strategy: Maritime piracy dataset
+## Maritime piracy dataset
 -   Build original Maritime Piracy Event & Location Dataset (1990-2019)
     -   Triangulating from three sources: 
         -   International Maritime Bureau (IMB), 
         -   International Maritime Organization (IMO) and  
         -   Anti-shipping Activity Messages (ASAM)
+
+## Vessel Traffic dataset
+-   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
+    -   Proprietary data provided for research by Fleetmon
+        -   2-hour time-stamp
+        -   Destination/flags
+        -   Types of ship
+       
+
+
+##  {.smaller}
+
+Vessel Types
+
+::: container
+::: {.column #vcenter width="49%"}
+![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
+:::
+
+::: {.column #vcenter width="49%"}
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+
+![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
+:::
+:::
+
+## Vessel Traffic dataset
+-   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
+    -   Proprietary data provided for research by Fleetmon
+        -   2-hour time-stamp
+        -   Destination/flags
+        -   Types of ship
+
+-   Unit of analysis: Grid-cell (55km X 55km) 
+
 
 ## 
 
@@ -109,6 +144,30 @@ June 2014
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
+:::
+:::
+
+## Eyeballing the data
+
+-   Do we see piracy in the grid-cell disrupt the vessel traffic?
+
+##  {.smaller}
+
+Zooming in
+
+::: container
+::: {.column #vcenter width="49%"}
+![](input/gog_2017_12_piracy.png){style="height: 100%;" fig-align="left;"}
+
+December 2017
+:::
+
+::: {.column #vcenter width="49%"}
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+
+![](input/gog_2018_1_piracy.png){style="height: 100%;" fig-align="right;"}
+
+January 2018
 :::
 :::
 
@@ -134,21 +193,7 @@ January 2018
 :::
 :::
 
-##  {.smaller}
 
-Vessel Types
-
-::: container
-::: {.column #vcenter width="49%"}
-![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
-:::
-
-::: {.column #vcenter width="49%"}
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
-
-![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
-:::
-:::
 
 ##  {.smaller}
 

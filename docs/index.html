@@ -419,7 +419,7 @@
 <li>The problem of piracy peaked after mid-2000s</li>
 <li>Mainly driven by Somali pirates in the Gulf of Aden</li>
 <li>International efforts to tackle piracy lowered</li>
-<li>But increasing in other parts of the world - Gulf of Guinea</li>
+<li>But increasing in other parts of the world</li>
 <li>Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces</li>
 </ul>
 <p><em>H1: Piracy incidents are likely lower vessel traffic at the local level.</em></p>
@@ -427,14 +427,16 @@
 <section id="empirical-strategy" class="slide level2 center">
 <h2>Empirical Strategy</h2>
 <ul>
-<li><p>Focus on the Gulf of Guinea (Nigeria, )</p></li>
-<li><p>Utilize two main datasets at this stage:</p></li>
-<li><p>Dataset on Maritime Piracy</p></li>
-<li><p>Vessel traffic</p></li>
+<li><p>Focus on the Gulf of Guinea (Nigeria, Benin, Togo, Cameroon, Ghana, Ivory Coast)</p></li>
+<li><p>Utilize two main datasets at this stage:</p>
+<ul>
+<li>Dataset on Maritime Piracy</li>
+<li>Vessel traffic</li>
+</ul></li>
 </ul>
 </section>
-<section id="empirical-strategy-maritime-piracy-dataset" class="slide level2 center">
-<h2>Empirical Strategy: Maritime piracy dataset</h2>
+<section id="maritime-piracy-dataset" class="slide level2 center">
+<h2>Maritime piracy dataset</h2>
 <ul>
 <li>Build original Maritime Piracy Event &amp; Location Dataset (1990-2019)
 <ul>
@@ -448,7 +450,57 @@
 </ul></li>
 </ul>
 </section>
-<section id="section" class="slide level2 center">
+<section id="vessel-traffic-dataset" class="slide level2 center">
+<h2>Vessel Traffic dataset</h2>
+<ul>
+<li>Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
+<ul>
+<li>Proprietary data provided for research by Fleetmon
+<ul>
+<li>2-hour time-stamp</li>
+<li>Destination/flags</li>
+<li>Types of ship</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="section" class="slide level2 smaller center">
+<h2></h2>
+<p>Vessel Types</p>
+<div class="container">
+<div id="vcenter" class="column" style="width:49%;">
+<div class="quarto-figure quarto-figure-center" style="height: 105%;">
+<figure>
+<p><img data-src="input/piechart_vesseltype_2014.png"></p>
+</figure>
+</div>
+</div>
+<div id="vcenter" class="column" style="width:49%;">
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+<div class="quarto-figure quarto-figure-center" style="height: 105%;">
+<figure>
+<p><img data-src="input/piechart_vesseltype_2019.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="vessel-traffic-dataset-1" class="slide level2 center">
+<h2>Vessel Traffic dataset</h2>
+<ul>
+<li>Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
+<ul>
+<li>Proprietary data provided for research by Fleetmon
+<ul>
+<li>2-hour time-stamp</li>
+<li>Destination/flags</li>
+<li>Types of ship</li>
+</ul></li>
+</ul></li>
+<li>Unit of analysis: Grid-cell (55km X 55km)</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2 center">
 <h2></h2>
 <p>June 2014</p>
 <div class="container">
@@ -469,7 +521,36 @@
 </div>
 </div>
 </section>
-<section id="section-1" class="slide level2 smaller center">
+<section id="eyeballing-the-data" class="slide level2 center">
+<h2>Eyeballing the data</h2>
+<ul>
+<li>Do we see piracy in the grid-cell disrupt the vessel traffic?</li>
+</ul>
+</section>
+<section id="section-2" class="slide level2 smaller center">
+<h2></h2>
+<p>Zooming in</p>
+<div class="container">
+<div id="vcenter" class="column" style="width:49%;">
+<div class="quarto-figure quarto-figure-center" style="height: 100%;">
+<figure>
+<p><img data-src="input/gog_2017_12_piracy.png"></p>
+</figure>
+</div>
+<p>December 2017</p>
+</div>
+<div id="vcenter" class="column" style="width:49%;">
+<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+<div class="quarto-figure quarto-figure-center" style="height: 100%;">
+<figure>
+<p><img data-src="input/gog_2018_1_piracy.png"></p>
+</figure>
+</div>
+<p>January 2018</p>
+</div>
+</div>
+</section>
+<section id="section-3" class="slide level2 smaller center">
 <h2></h2>
 <p>2-Hr Timestamp</p>
 <div class="container">
@@ -492,28 +573,7 @@
 </div>
 </div>
 </section>
-<section id="section-2" class="slide level2 smaller center">
-<h2></h2>
-<p>Vessel Types</p>
-<div class="container">
-<div id="vcenter" class="column" style="width:49%;">
-<div class="quarto-figure quarto-figure-center" style="height: 105%;">
-<figure>
-<p><img data-src="input/piechart_vesseltype_2014.png"></p>
-</figure>
-</div>
-</div>
-<div id="vcenter" class="column" style="width:49%;">
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
-<div class="quarto-figure quarto-figure-center" style="height: 105%;">
-<figure>
-<p><img data-src="input/piechart_vesseltype_2019.png"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="section-3" class="slide level2 smaller center">
+<section id="section-4" class="slide level2 smaller center">
 <h2></h2>
 <div class="container">
 <div id="vcenter" class="column" style="width:40%;">
@@ -602,7 +662,7 @@
 <h2>Decrease in legal fishing, opportunity, &amp; piracy</h2>
 
 <img data-src="input/figure_8.png" class="r-stretch quarto-figure-center"></section>
-<section id="section-4" class="slide level2 smaller center">
+<section id="section-5" class="slide level2 smaller center">
 <h2></h2>
 <div class="container">
 <div class="column" style="width:30%;">
