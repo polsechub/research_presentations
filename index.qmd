@@ -41,7 +41,7 @@ css: styles.css
   - Direct costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years
   
 - What about indirect costs on trade?
-- More salient question after the recent supply-chain problem & its effect on trade disruption
+<!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
 
 ## Research Question
 
@@ -62,8 +62,6 @@ css: styles.css
   - Work in progress!
 
 
-
-
 ##  Piracy & Trade 
 
 -   The problem of piracy peaked after mid-2000s
@@ -76,36 +74,27 @@ css: styles.css
 
 -   The problem of piracy peaked after mid-2000s
 -   Mainly driven by Somali pirates in the Gulf of Aden
+-   International efforts to tackle piracy lowered
+-   But increasing in other parts of the world - Gulf of Guinea
+-   Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces
 
-## Local milieu
+*H1: Piracy incidents are likely lower vessel traffic at the local level.*
 
-Local illegal fishers --\> turn to piracy --\> when there is a constrain on illegal fishing & near target-rich high shipping areas
 
-![](input/pirates_by_frecon.jpg){style="height: 70%;" fig-align="center"}
+## Empirical Strategy
 
-::: {style="font-size: .5em; text-align: center; margin: -1em;"}
-Photo credit: Eric Frécon
-:::
+- Focus on the Gulf of Guinea (Nigeria, )
 
-<!-- for centering heading-2 below, see .css file -->
-
-<!-- ## Piracy world-wide -->
-
-<!-- ![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"} -->
-
-## Hypotheses {.centit}
-
-*H1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.*
-
-<br/>
-
-*H2: Piracy incidents are more likely to occur in areas with high commercial vessel traffic.*
-
-<br/>
-
-*H3 (Interaction): Piracy incidents are more likely to occur in areas with high vessel traffic and a decline in illegal fishing.*
-
-<!-- &emsp; Adds 4 spaces, and ;&ensp; Adds 2 spaces -->
+-   Utilize two main datasets at this stage:
+  -   Dataset on Maritime Piracy
+  -   Vessel traffic 
+  
+## Empirical Strategy: Maritime piracy dataset
+-   Build original Maritime Piracy Event & Location Dataset (1990-2019)
+    -   Triangulating from three sources: 
+        -   International Maritime Bureau (IMB), 
+        -   International Maritime Organization (IMO) and  
+        -   Anti-shipping Activity Messages (ASAM)
 
 ## 
 

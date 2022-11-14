@@ -25,7 +25,7 @@
     "href": "index.html#background",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Background",
-    "text": "Background\n\nPiracy is costly\nInternational Maritime Bureau estimates: $1-9 bn/year\nUNODC, report by Stable Seas 2021, piracy costs in the Gulf of Guinea region\n\nDirect costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years\n\nWhat about indirect costs on trade?\nMore salient question after the recent supply-chain problem & its effect on trade disruption"
+    "text": "Background\n\nPiracy is costly\nInternational Maritime Bureau estimates: $1-9 bn/year\nUNODC, report by Stable Seas 2021, piracy costs in the Gulf of Guinea region\n\nDirect costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years\n\nWhat about indirect costs on trade?"
   },
   {
     "objectID": "index.html#research-question",
@@ -53,21 +53,21 @@
     "href": "index.html#piracy-trade-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Piracy & Trade",
-    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden"
+    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden\nInternational efforts to tackle piracy lowered\nBut increasing in other parts of the world - Gulf of Guinea\nPiracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces\n\nH1: Piracy incidents are likely lower vessel traffic at the local level."
   },
   {
-    "objectID": "index.html#local-milieu",
-    "href": "index.html#local-milieu",
+    "objectID": "index.html#empirical-strategy",
+    "href": "index.html#empirical-strategy",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Local milieu",
-    "text": "Local milieu\nLocal illegal fishers –> turn to piracy –> when there is a constrain on illegal fishing & near target-rich high shipping areas\n\n\nPhoto credit: Eric Frécon"
+    "section": "Empirical Strategy",
+    "text": "Empirical Strategy\n\nFocus on the Gulf of Guinea (Nigeria, )\nUtilize two main datasets at this stage:\nDataset on Maritime Piracy\nVessel traffic"
   },
   {
-    "objectID": "index.html#hypotheses",
-    "href": "index.html#hypotheses",
+    "objectID": "index.html#empirical-strategy-maritime-piracy-dataset",
+    "href": "index.html#empirical-strategy-maritime-piracy-dataset",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Hypotheses",
-    "text": "Hypotheses\nH1: Piracy incidents are more likely to occur in areas where illegal fishing has declined.\n\nH2: Piracy incidents are more likely to occur in areas with high commercial vessel traffic.\n\nH3 (Interaction): Piracy incidents are more likely to occur in areas with high vessel traffic and a decline in illegal fishing."
+    "section": "Empirical Strategy: Maritime piracy dataset",
+    "text": "Empirical Strategy: Maritime piracy dataset\n\nBuild original Maritime Piracy Event & Location Dataset (1990-2019)\n\nTriangulating from three sources:\n\nInternational Maritime Bureau (IMB),\nInternational Maritime Organization (IMO) and\n\nAnti-shipping Activity Messages (ASAM)"
   },
   {
     "objectID": "index.html#section",
