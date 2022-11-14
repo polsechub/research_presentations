@@ -7,6 +7,7 @@ format:
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
+    center: true
 css: styles.css
 ---
 
@@ -18,7 +19,7 @@ css: styles.css
 
 ## Outputs at various stages {.smaller}
 
-
+ <br>
 
 |               Published/under review                     | In process                   | 
 |------------------------------------|-------------------------|
