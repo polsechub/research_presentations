@@ -318,6 +318,9 @@
       margin-right: 0; 
     }
   </style>
+  
+  <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
 <body class="quarto-dark">
   <div class="reveal">
@@ -475,7 +478,7 @@
 </figure>
 </div>
 </div>
-<div id="vcenter" class="column" style="width:49%;">
+<div class="column" style="width:49%;">
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 <div class="quarto-figure quarto-figure-center" style="height: 105%;">
 <figure>
@@ -505,14 +508,14 @@
 <p><br></p>
 <p>June 2014</p>
 <div class="container">
-<div id="vcenter" class="column" style="width:48%;">
+<div class="column" style="width:48%;">
 <div class="quarto-figure quarto-figure-center" style="height: 90%;">
 <figure>
 <p><img data-src="input/monthly_raw_viz_2014_6.png"></p>
 </figure>
 </div>
 </div>
-<div id="vcenter" class="column" style="width:48%;">
+<div class="column" style="width:48%;">
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 <div class="quarto-figure quarto-figure-center" style="height: 90%;">
 <figure>
@@ -532,7 +535,7 @@
 <h2></h2>
 <p>Zooming in</p>
 <div class="container">
-<div id="vcenter" class="column" style="width:49%;">
+<div class="column" style="width:49%;">
 <div class="quarto-figure quarto-figure-center" style="height: 100%;">
 <figure>
 <p><img data-src="input/gog_2017_12_piracy.png"></p>
@@ -540,7 +543,7 @@
 </div>
 <p>December 2017</p>
 </div>
-<div id="vcenter" class="column" style="width:49%;">
+<div class="column" style="width:49%;">
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 <div class="quarto-figure quarto-figure-center" style="height: 100%;">
 <figure>
@@ -555,7 +558,7 @@
 <h2></h2>
 <p>Zooming in further …</p>
 <div class="container">
-<div id="vcenter" class="column" style="width:49%;">
+<div class="column" style="width:49%;">
 <div class="quarto-figure quarto-figure-center" style="height: 100%;">
 <figure>
 <p><img data-src="input/gog_2017_12_piracy_ais_raw.png"></p>
@@ -563,7 +566,7 @@
 </div>
 <p>December 2017</p>
 </div>
-<div id="vcenter" class="column" style="width:49%;">
+<div class="column" style="width:49%;">
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 <div class="quarto-figure quarto-figure-center" style="height: 100%;">
 <figure>
@@ -574,84 +577,222 @@
 </div>
 </div>
 </section>
-<section id="model-fixed-effect-estimator" class="slide level2 center">
-<h2>Model: Fixed effect estimator</h2>
+<section id="model-fixed-effect-estimator-two-way" class="slide level2 center">
+<h2>Model: Fixed effect estimator (two-way)</h2>
 <p><br></p>
 <p><br></p>
-<p><span class="math display">\[ \Delta Y_{it} = \beta\Delta Piracy_{it}+\Delta U_{it} \]</span> Where, <span class="math inline">\(i\)</span> is for grid-cell and <span class="math inline">\(t\)</span> is month, and <span class="math inline">\(\Delta Y_{it}\)</span> is the change in vessel traffic in log form, as explained by <span class="math inline">\(\Delta Piracy_{it}\)</span></p>
+<p><span class="math display">\[ \Delta Y_{it} = \beta\Delta Piracy_{it} +\alpha_{i} +\mu_{t}+\Delta U_{it} \]</span> Where, <span class="math inline">\(i\)</span> is for grid-cell and <span class="math inline">\(t\)</span> is month, and <span class="math inline">\(\Delta Y_{it}\)</span> is the change in vessel traffic in log form, as explained by <span class="math inline">\(\Delta Piracy_{it}\)</span></p>
 </section>
 <section id="section-3" class="slide level2 smaller center">
 <h2></h2>
-<div class="container">
-<div id="vcenter" class="column" style="width:40%;">
+<p>FE Regression Results (Clustered SE)</p>
 <p><br></p>
-<ul>
-<li><p>Decrease=L.IUU – IUU</p></li>
-<li><p>IUU decrease=1 if decrease&gt;10%</p></li>
-<li><p>IUU decrease=0, otherwise</p></li>
-</ul>
-</div>
-<div id="vcenter" class="column" style="width:55%;">
-<table style="width:97%;">
-<colgroup>
-<col style="width: 55%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><sub>(1)</sub></th>
-<th><sub>(2)</sub></th>
-<th><sub>(3)</sub></th>
-</tr>
-</thead>
+<div class="cell">
+<div class="cell-output-display">
+
+<table style="NAborder-bottom: 0; width: auto !important; margin-left: auto; margin-right: auto;" class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:center;"> Model 1 </th>
+   <th style="text-align:center;"> Model 2 </th>
+   <th style="text-align:center;"> Model 3 </th>
+   <th style="text-align:center;"> Model 4 </th>
+  </tr>
+ </thead>
 <tbody>
-<tr class="odd">
-<td><sub>IUU&nbsp;decrease</sub></td>
-<td><sub>1.852**</sub> <sub>(0.731)</sub></td>
-<td><sub>1.618***</sub> <sub>(0.503)</sub></td>
-<td><sub>0.858</sub> <sub>(0.616)</sub></td>
-</tr>
-<tr class="even">
-<td><sub>Vessel&nbsp;Traffic&nbsp;log&nbsp;(yearly&nbsp;mean)</sub></td>
-<td><sub>1.003***</sub> <sub>(0.046)</sub></td>
-<td><sub>0.979***</sub> <sub>(0.044)</sub></td>
-<td><sub>0.977***</sub> <sub>(0.045)</sub></td>
-</tr>
-<tr class="odd">
-<td><sub>Near&nbsp;nightlight</sub></td>
-<td></td>
-<td><sub>5.402***</sub> <sub>(1.183)</sub></td>
-<td><sub>5.405***</sub> <sub>(1.183)</sub></td>
-</tr>
-<tr class="even">
-<td><sub>Port&nbsp;count</sub></td>
-<td></td>
-<td><sub>1.379***</sub> <sub>(0.160)</sub></td>
-<td><sub>1.379***</sub> <sub>(0.161)</sub></td>
-</tr>
-<tr class="odd">
-<td><sub>PSDKP&nbsp;bases</sub></td>
-<td></td>
-<td><sub>0.265</sub> <sub>(0.352)</sub></td>
-<td><sub>0.262</sub> <sub>(0.353)</sub></td>
-</tr>
-<tr class="even">
-<td><sub>IUU&nbsp;decrease&nbsp;X&nbsp;Traffic</sub></td>
-<td></td>
-<td></td>
-<td><sub>0.166</sub> <sub>(0.150)</sub></td>
-</tr>
-<tr class="odd">
-<td><sub>Observation</sub></td>
-<td><sub>66248</sub></td>
-<td><sub>66248</sub></td>
-<td><sub>66248</sub></td>
-</tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) </td>
+   <td style="text-align:center;"> −0.047** </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;"> (0.021) </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-1 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.068*** </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> (0.021) </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-2 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.032 </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> (0.021) </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-3 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.012 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px"> (0.021) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Num.Obs. </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> RMSE </td>
+   <td style="text-align:center;"> 0.47 </td>
+   <td style="text-align:center;"> 0.47 </td>
+   <td style="text-align:center;"> 0.47 </td>
+   <td style="text-align:center;"> 0.47 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Std.Errors </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+  </tr>
 </tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01</td></tr></tfoot>
 </table>
+
+</div>
+</div>
+</section>
+<section id="section-4" class="slide level2 center">
+<h2></h2>
+<ul>
+<li>In the above, we focus on “all” vessel types</li>
+<li>If piracy affects trade, we should see enhanced effect on “Cargo” and “Oil Tankers”</li>
+</ul>
+</section>
+<section id="section-5" class="slide level2 smaller center">
+<h2></h2>
+<p>FE Regression Results (Clustered SE): Including only “Cargo” and “Oil Tankers”</p>
+<p><br></p>
+<div class="cell">
+<div class="cell-output-display">
+
+<table style="NAborder-bottom: 0; width: auto !important; margin-left: auto; margin-right: auto;" class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:center;"> Model 1 </th>
+   <th style="text-align:center;"> Model 2 </th>
+   <th style="text-align:center;"> Model 3 </th>
+   <th style="text-align:center;"> Model 4 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) </td>
+   <td style="text-align:center;"> −0.028 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;"> (0.018) </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-1 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.056*** </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> (0.018) </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-2 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.043** </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> (0.018) </td>
+   <td style="text-align:center;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Piracy n (monthly) Lag-3 </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;">  </td>
+   <td style="text-align:center;"> −0.042** </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px">  </td>
+   <td style="text-align:center;box-shadow: 0px 1px"> (0.018) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Num.Obs. </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+   <td style="text-align:center;"> 89424 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> RMSE </td>
+   <td style="text-align:center;"> 0.40 </td>
+   <td style="text-align:center;"> 0.40 </td>
+   <td style="text-align:center;"> 0.40 </td>
+   <td style="text-align:center;"> 0.40 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Std.Errors </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+   <td style="text-align:center;"> HC3 </td>
+  </tr>
+</tbody>
+<tfoot><tr><td style="padding: 0; " colspan="100%">
+<sup></sup> * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01</td></tr></tfoot>
+</table>
+
 </div>
 </div>
 </section>
@@ -880,6 +1021,48 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

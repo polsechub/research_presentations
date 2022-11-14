@@ -19,102 +19,98 @@ css: styles.css
 
 ## Outputs at various stages {.smaller}
 
- <br>
+<br>
 
-|               Published/under review                     | In process                   | 
-|------------------------------------|-------------------------|
-| Interstate relations & piracy onset (Maritime Security)         | Indonesia - Survey of fishers (ongoing)   | 
-| IUU fishing & piracy in Indonesia (Political Geography) | *Piracy & vessel traffic/trade*       | 
-| Covid & piracy   (IASR)                                    |                                         |
-| Maritime Piracy & Foreign Policy   (Oxford Research Encyclopedia)|            |
-| Blogs & media (The Washington Post, Political Violence at a Glance, etc.)|            |
+| Published/under review                                                    | In process                              |
+|------------------------------------------|------------------------------|
+| Interstate relations & piracy onset (Maritime Security)                   | Indonesia - Survey of fishers (ongoing) |
+| IUU fishing & piracy in Indonesia (Political Geography)                   | *Piracy & vessel traffic/trade*         |
+| Covid & piracy (IASR)                                                     |                                         |
+| Maritime Piracy & Foreign Policy (Oxford Research Encyclopedia)           |                                         |
+| Blogs & media (The Washington Post, Political Violence at a Glance, etc.) |                                         |
+
 : {tbl-colwidths="\[60,40\]"}
-
 
 <!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
 
 ## Background
 
-- Piracy is costly
-- International Maritime Bureau estimates: $1-9 bn/year
-- UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
-  - Direct costs (Ransom paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per year
-  
-- What about indirect costs on trade?
-<!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
+-   Piracy is costly
+-   International Maritime Bureau estimates: \$1-9 bn/year
+-   UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
+    -   Direct costs (Ransom paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): \$200-300 million per year
+-   What about indirect costs on trade? <!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
 
 ## Research Question
 
 -   Indirect consequences of maritime piracy
 
-- How does maritime piracy influence international trade (narrower: vessel traffic) ?
+-   How does maritime piracy influence international trade (narrower: vessel traffic) ?
 
 ## Indirect costs of piracy?
 
-- Most accounts of estimates anecdotal & "guesstimate" mainly due to lack of data
+-   Most accounts of estimates anecdotal & "guesstimate" mainly due to lack of data
 
-- But the availability of Automatic Identification System (AIS) data can be immensely helpful
+-   But the availability of Automatic Identification System (AIS) data can be immensely helpful
 
-  - For instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data
-  
-  - We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
-  
-  - Work in progress!
+    -   For instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data
 
+    -   We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
 
-##  Piracy & Trade 
+    -   Work in progress!
+
+## Piracy & Trade
 
 -   The problem of piracy peaked after mid-2000s
 -   Mainly driven by Somali pirates in the Gulf of Aden
 
 ![](input/yearly_piracy_all.png){style="height: 120%;" fig-align="center"}
 
-
 ## Piracy & Trade
 
 -   The problem of piracy peaked after mid-2000s
 -   Mainly driven by Somali pirates in the Gulf of Aden
 -   International efforts to tackle piracy lowered
--   But increasing in other parts of the world 
+-   But increasing in other parts of the world
 -   Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces
 
 *H1: Piracy incidents are likely lower vessel traffic at the local level.*
 
-
 ## Empirical Strategy
 
-- Focus on the Gulf of Guinea (Nigeria, Benin, Togo, Cameroon, Ghana, Ivory Coast)
+-   Focus on the Gulf of Guinea (Nigeria, Benin, Togo, Cameroon, Ghana, Ivory Coast)
 
 -   Utilize two main datasets at this stage:
+
     -   Dataset on Maritime Piracy
-    -   Vessel traffic 
-  
+    -   Vessel traffic
+
 ## Maritime piracy dataset
+
 -   Build original Maritime Piracy Event & Location Dataset (1990-2019)
-    -   Triangulating from three sources: 
-        -   International Maritime Bureau (IMB), 
-        -   International Maritime Organization (IMO) and  
+    -   Triangulating from three sources:
+        -   International Maritime Bureau (IMB),
+        -   International Maritime Organization (IMO) and\
         -   Anti-shipping Activity Messages (ASAM)
 
 ## Vessel Traffic dataset
+
 -   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
     -   Proprietary data provided for research by Fleetmon
         -   2-hour time-stamp
         -   Destination/flags
         -   Types of ship
-       
-
 
 ##  {.smaller}
 
 Vessel Types
 
 ::: container
-::: {.column #vcenter width="49%"}
+::: {#vcenter .column width="49%"}
 ![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
 :::
 
-::: {.column #vcenter width="49%"}
+::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
@@ -122,12 +118,12 @@ Vessel Types
 :::
 
 ## Vessel Traffic dataset
+
 -   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
     -   Proprietary data provided for research by Fleetmon
         -   2-hour time-stamp
         -   Destination/flags
         -   Types of ship
-
 -   Unit of analysis: Grid-cell (55km X 55km) month
 
 ## Grid-cell level (55km X 55km)
@@ -137,17 +133,16 @@ Vessel Types
 June 2014
 
 ::: container
-::: {.column #vcenter width="48%"}
+::: {.column width="48%"}
 ![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 
-::: {.column #vcenter width="48%"}
+::: {.column width="48%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
-
 
 ## Eyeballing the data
 
@@ -158,13 +153,13 @@ June 2014
 Zooming in
 
 ::: container
-::: {.column #vcenter width="49%"}
+::: {.column width="49%"}
 ![](input/gog_2017_12_piracy.png){style="height: 100%;" fig-align="left;"}
 
 December 2017
 :::
 
-::: {.column #vcenter width="49%"}
+::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/gog_2018_1_piracy.png){style="height: 100%;" fig-align="right;"}
@@ -173,20 +168,18 @@ January 2018
 :::
 :::
 
-
-
 ##  {.smaller}
 
 Zooming in further ...
 
 ::: container
-::: {.column #vcenter width="49%"}
+::: {.column width="49%"}
 ![](input/gog_2017_12_piracy_ais_raw.png){style="height: 100%;" fig-align="left;"}
 
 December 2017
 :::
 
-::: {.column #vcenter width="49%"}
+::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/gog_2018_01_piracy_ais_raw.png){style="height: 100%;" fig-align="right;"}
@@ -195,53 +188,149 @@ January 2018
 :::
 :::
 
-##  Model: Fixed effect estimator
+## Model: Fixed effect estimator (two-way)
 
 </br>
 
-</br>  
+</br>
 
+$$ \Delta Y_{it} = \beta\Delta Piracy_{it} +\alpha_{i} +\mu_{t}+\Delta U_{it} $$ Where, $i$ is for grid-cell and $t$ is month, and $\Delta Y_{it}$ is the change in vessel traffic in log form, as explained by $\Delta Piracy_{it}$
 
-$$ \Delta Y_{it} = \beta\Delta Piracy_{it}+\Delta U_{it} $$
-Where, $i$ is for grid-cell and $t$ is month, and  $\Delta Y_{it}$ is the change in vessel traffic in log form, as explained by $\Delta Piracy_{it}$
 
 ##  {.smaller}
 
-::: container
-::: {.column #vcenter width="40%"}
-<br/>
+FE Regression Results (Clustered SE)
 
--   Decrease=L.IUU -- IUU
+</br>
 
--   IUU decrease=1 if decrease\>10%
+```{r}
+library(tidyverse)
+library(plm)
+library(sf)
+library(modelsummary)
+library(expss)
+library(sandwich)
 
--   IUU decrease=0, otherwise
-:::
 
-::: {.column #vcenter width="55%"}
-|                                    | ~(1)~                   | ~(2)~                   | ~(3)~                   |
-|-------------------|------------------|------------------|------------------|
-| ~IUU decrease~                     | ~1.852\*\*~ ~(0.731)~   | ~1.618\*\*\*~ ~(0.503)~ | ~0.858~ ~(0.616)~       |
-| ~Vessel Traffic log (yearly mean)~ | ~1.003\*\*\*~ ~(0.046)~ | ~0.979\*\*\*~ ~(0.044)~ | ~0.977\*\*\*~ ~(0.045)~ |
-| ~Near nightlight~                  |                         | ~5.402\*\*\*~ ~(1.183)~ | ~5.405\*\*\*~ ~(1.183)~ |
-| ~Port count~                       |                         | ~1.379\*\*\*~ ~(0.160)~ | ~1.379\*\*\*~ ~(0.161)~ |
-| ~PSDKP bases~                      |                         | ~0.265~ ~(0.352)~       | ~0.262~ ~(0.353)~       |
-| ~IUU decrease X Traffic~           |                         |                         | ~0.166~ ~(0.150)~       |
-| ~Observation~                      | ~66248~                 | ~66248~                 | ~66248~                 |
+load("input/data/monthly_ais_mpeld_prio.RData")
 
-: {tbl-colwidths="\[55,14,14, 14\]"}
-:::
-:::
+gogprio<-gogprio_sf %>% st_drop_geometry()
+
+# adding lag
+
+gogprio.withlags<- gogprio %>%
+   mutate(monthly_piracy_lag1 = dplyr::lag(monthly_all_piracy_n, 1),
+          monthly_piracy_lag2 = dplyr::lag(monthly_all_piracy_n, 2),
+          monthly_piracy_lag3 = dplyr::lag(monthly_all_piracy_n, 3))  
+
+
+# estimate the fixed effects regression with plm()
+result_fe1 <- plm(log(mean_vessels+0.1) ~ monthly_all_piracy_n, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+result_fe2 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag1, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+
+result_fe3 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag2, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+result_fe4 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag3, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+
+result_fe<-list(result_fe1, result_fe2, result_fe3, result_fe4)
+
+
+modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = "AIC|R2|R2 Adj", vcov = "robust", 
+             coef_rename = c("monthly_all_piracy_n" = "Piracy n (monthly)",
+                                          "monthly_piracy_lag1" = "Piracy n (monthly) Lag-1",
+                                          "monthly_piracy_lag2" = "Piracy n (monthly) Lag-2",
+                                          "monthly_piracy_lag3" = "Piracy n (monthly) Lag-3"))
+
+
+```
+
+
+
+## 
+
+- In the above, we focus on "all" vessel types
+- If piracy affects trade, we should see enhanced effect on "Cargo" and "Oil Tankers"
+
+##  {.smaller}
+
+FE Regression Results (Clustered SE): Including only "Cargo" and "Oil Tankers"
+
+</br>
+
+```{r}
+library(tidyverse)
+library(plm)
+library(sf)
+library(modelsummary)
+library(expss)
+library(sandwich)
+
+
+load("input/data/monthly_ais_cargo_tanker_mpeld_prio.RData")
+
+gogprio<-gogprio_sf %>% st_drop_geometry()
+
+# adding lag
+
+gogprio.withlags<- gogprio %>%
+   mutate(monthly_piracy_lag1 = dplyr::lag(monthly_all_piracy_n, 1),
+          monthly_piracy_lag2 = dplyr::lag(monthly_all_piracy_n, 2),
+          monthly_piracy_lag3 = dplyr::lag(monthly_all_piracy_n, 3))  
+
+
+# estimate the fixed effects regression with plm()
+result_fe1 <- plm(log(mean_vessels+0.1) ~ monthly_all_piracy_n, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+result_fe2 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag1, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+
+result_fe3 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag2, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+result_fe4 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag3, 
+                    data = gogprio.withlags,
+                    index = c("gid", "yearmon"), 
+                    model = "within", effect = "twoways")
+
+
+result_fe<-list(result_fe1, result_fe2, result_fe3, result_fe4)
+
+
+modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = "AIC|R2|R2 Adj", vcov = "robust", 
+             coef_rename = c("monthly_all_piracy_n" = "Piracy n (monthly)",
+                                          "monthly_piracy_lag1" = "Piracy n (monthly) Lag-1",
+                                          "monthly_piracy_lag2" = "Piracy n (monthly) Lag-2",
+                                          "monthly_piracy_lag3" = "Piracy n (monthly) Lag-3"))
+
+
+```
 
 ## More questions
 
 -   Do we find the ripple effect beyond the grid-cell?
 -   How does this translate into actual cost of disruption to trade?
 
-
-
-
-
-
 ## Questions/Comments {.centering}
-
