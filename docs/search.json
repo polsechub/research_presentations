@@ -25,7 +25,7 @@
     "href": "index.html#background",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Background",
-    "text": "Background\n\nPiracy is costly\nInternational Maritime Bureau estimates: $1-9 billion per year\nUNODC, report by Stable Seas 2021, piracy costs in the Gulf of Guinea region\n\nDirect costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years\n\nWhat about indirect costs on trade?\nMore salient question after the recent supply-chain problem & its effect on trade disruption"
+    "text": "Background\n\nPiracy is costly\nInternational Maritime Bureau estimates: $1-9 bn/year\nUNODC, report by Stable Seas 2021, piracy costs in the Gulf of Guinea region\n\nDirect costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years\n\nWhat about indirect costs on trade?\nMore salient question after the recent supply-chain problem & its effect on trade disruption"
   },
   {
     "objectID": "index.html#research-question",
@@ -39,7 +39,7 @@
     "href": "index.html#indirect-costs-of-piracy",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Indirect costs of piracy?",
-    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress: comment/questions will be immensely helpful!"
+    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress!"
   },
   {
     "objectID": "index.html#piracy-trade",

@@ -36,7 +36,7 @@ css: styles.css
 ## Background
 
 - Piracy is costly
-- International Maritime Bureau estimates: $1-9 billion per year
+- International Maritime Bureau estimates: $1-9 bn/year
 - UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
   - Direct costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years
   
@@ -59,7 +59,7 @@ css: styles.css
   
   - We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
   
-  - Work in progress: comment/questions will be immensely helpful!
+  - Work in progress!
 
 
 
