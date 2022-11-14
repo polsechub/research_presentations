@@ -130,8 +130,9 @@ Vessel Types
 
 -   Unit of analysis: Grid-cell (55km X 55km) 
 
+## Grid-cell level (55km X 55km)
 
-## 
+</br>
 
 June 2014
 
@@ -146,6 +147,7 @@ June 2014
 ![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
+
 
 ## Eyeballing the data
 
@@ -171,11 +173,11 @@ January 2018
 :::
 :::
 
- 
+
 
 ##  {.smaller}
 
-2-Hr Timestamp
+Zooming in
 
 ::: container
 ::: {.column #vcenter width="49%"}
