@@ -42,25 +42,8 @@ css: styles.css
 
 ##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
 
-## Research
 
--   How can I understand the problems better so we can devise policy recommendations?
 
--   DoD funded projects
-
-    > MINERVA: 2020-2023 (With Uni of Tennessee), \$689,000
-    >
-    > DECUR proposal (With Naval War College in Rhode Island)
-
--   Center for Social Impact, UNCW
-
-<!-- layout="[[-1], [1], [-1]] IS improvisation for verticle alignment -->
-
-## 
-
-::: {style="font-size: 1.8em; text-align: center"}
-All Maritime Crimes Are Local: Understanding the Causal Link Between Illegal Fishing & Maritime Piracy
-:::
 
 ## Is there a systematic association between piracy events & illegal Fishing?
 
