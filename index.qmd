@@ -14,8 +14,8 @@ css: styles.css
 ## Intro {.centit}
 
 -   A part of the research project on Maritime Security
--   Collaboration between UT, Knoxville & UNCW, 2020-2023
--   Funded by Office of Naval Research (Minerva Research Initiative)
+-   Collaboration between UT, Knoxville & UNCW
+-   Funded by Office of Naval Research (Minerva Research Initiative), 2020-2023
 
 ## Outputs at various stages {.smaller}
 
@@ -23,8 +23,8 @@ css: styles.css
 
 |               Published/under review                     | In process                   | 
 |------------------------------------|-------------------------|
-| Interstate relaotions & piracy (Maritime Security)         | Indonesia - Survey of fishers (ongoing)   | 
-| IUU fishing and piracy in Indonesia (Political Geography ) | *Piracy & vessel traffic/trade*       | 
+| Interstate relations & piracy onset (Maritime Security)         | Indonesia - Survey of fishers (ongoing)   | 
+| IUU fishing & piracy in Indonesia (Political Geography) | *Piracy & vessel traffic/trade*       | 
 | Covid & piracy   (IASR)                                    |                                         |
 | Maritime Piracy & Foreign Policy   (Oxford Research Encyclopedia)|            |
 | Blogs & media (The Washington Post, Political Violence at a Glance etc)|            |
@@ -33,13 +33,36 @@ css: styles.css
 
 <!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
 
-## Research
+## Background
 
--   Interdisciplinary
+- Piracy is costly
+- International Maritime Bureau estimates: $1-9 billion per year
+- UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
+  - Direct costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years
+  
+- What about indirect costs on trade?
+- More salient question after the recent supply-chain problem & its effect on trade disruption
 
--   Policy-focus
+## Research Question
 
--   Multimethod: Qualitative & quantitative
+-   Consequences of maritime piracy
+
+- How does maritime piracy influence international trade (narrower: vessel traffic) ?
+
+## Indirect costs of piracy?
+
+- Most accounts of estimates anecdotal & "guesstimate" mainly due to lack of data
+
+- But the availability of Automatic Identification System (AIS) data can be immensely helpful
+
+  - For instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data
+  
+  - We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
+  
+  - Work in progress: comment/questions will be immensely helpful!
+
+
+
 
 ##  {background-image="input/yearly_piracy_all.png" background-size="80%"}
 

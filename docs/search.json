@@ -11,21 +11,35 @@
     "href": "index.html#intro",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Intro",
-    "text": "Intro\n\nA part of the research project on Maritime Security\nCollaboration between UT, Knoxville & UNCW, 2020-2023\nFunded by Office of Naval Research (Minerva Research Initiative)"
+    "text": "Intro\n\nA part of the research project on Maritime Security\nCollaboration between UT, Knoxville & UNCW\nFunded by Office of Naval Research (Minerva Research Initiative), 2020-2023"
   },
   {
     "objectID": "index.html#outputs-at-various-stages",
     "href": "index.html#outputs-at-various-stages",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Outputs at various stages",
-    "text": "Outputs at various stages\n\n\n\n\n\n\n\n\nPublished/under review\nIn process\n\n\n\n\nInterstate relaotions & piracy (Maritime Security)\nIndonesia - Survey of fishers (ongoing)\n\n\nIUU fishing and piracy in Indonesia (Political Geography )\nPiracy & vessel traffic/trade\n\n\nCovid & piracy (IASR)\n\n\n\nMaritime Piracy & Foreign Policy (Oxford Research Encyclopedia)\n\n\n\nBlogs & media (The Washington Post, Political Violence at a Glance etc)"
+    "text": "Outputs at various stages\n\n\n\n\n\n\n\n\nPublished/under review\nIn process\n\n\n\n\nInterstate relations & piracy onset (Maritime Security)\nIndonesia - Survey of fishers (ongoing)\n\n\nIUU fishing & piracy in Indonesia (Political Geography)\nPiracy & vessel traffic/trade\n\n\nCovid & piracy (IASR)\n\n\n\nMaritime Piracy & Foreign Policy (Oxford Research Encyclopedia)\n\n\n\nBlogs & media (The Washington Post, Political Violence at a Glance etc)"
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
+    "objectID": "index.html#background",
+    "href": "index.html#background",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Research",
-    "text": "Research\n\nInterdisciplinary\nPolicy-focus\nMultimethod: Qualitative & quantitative"
+    "section": "Background",
+    "text": "Background\n\nPiracy is costly\nInternational Maritime Bureau estimates: $1-9 billion per year\nUNODC, report by Stable Seas 2021, piracy costs in the Gulf of Guinea region\n\nDirect costs (Random paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): $200-300 million per years\n\nWhat about indirect costs on trade?\nMore salient question after the recent supply-chain problem & its effect on trade disruption"
+  },
+  {
+    "objectID": "index.html#research-question",
+    "href": "index.html#research-question",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "Research Question",
+    "text": "Research Question\n\nConsequences of maritime piracy\nHow does maritime piracy influence international trade (narrower: vessel traffic) ?"
+  },
+  {
+    "objectID": "index.html#indirect-costs-of-piracy",
+    "href": "index.html#indirect-costs-of-piracy",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "Indirect costs of piracy?",
+    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress: comment/questions will be immensely helpful!"
   },
   {
     "objectID": "index.html#is-there-a-systematic-association-between-piracy-events-illegal-fishing",
