@@ -1,6 +1,6 @@
 ---
-title: "Maritime Piracy and its Effect on Vessel Traffic in West Africe"
-author: "Anup Phayal"
+title: "Maritime Piracy & its Effect on Vessel Traffic in West Africa"
+# author: "Anup Phayal"
 date: " "
 format:
   revealjs:
@@ -13,10 +13,10 @@ css: styles.css
 ## Intro {.centit}
 
 -   A part of the research project on Maritime Security
--   Collaboration between UT, Knoxville and UNCW, 2020-2023
+-   Collaboration between UT, Knoxville & UNCW, 2020-2023
 -   Funded by Office of Naval Research (Minerva Research Initiative)
 
-## Outputs at various stages
+## Outputs at various stages {.smaller}
 
 
 
@@ -103,29 +103,31 @@ Photo credit: Eric Frécon
 June 2014
 
 ::: container
-::: {.column width="48%"}
+::: {.column #vcenter width="48%"}
 ![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 
-::: {.column width="48%"}
+::: {.column #vcenter width="48%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
 
+ 
+
 ##  {.smaller}
 
 2-Hr Timestamp
 
 ::: container
-::: {.column width="49%"}
+::: {.column #vcenter width="49%"}
 ![](input/gog_2017_12_piracy_ais_raw.png){style="height: 100%;" fig-align="left;"}
 
 December 2017
 :::
 
-::: {.column width="49%"}
+::: {.column #vcenter width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/gog_2018_01_piracy_ais_raw.png){style="height: 100%;" fig-align="right;"}
@@ -139,11 +141,11 @@ January 2018
 Vessel Types
 
 ::: container
-::: {.column width="49%"}
+::: {.column #vcenter width="49%"}
 ![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
 :::
 
-::: {.column width="49%"}
+::: {.column #vcenter width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
@@ -153,7 +155,7 @@ Vessel Types
 ##  {.smaller}
 
 ::: container
-::: {.column width="40%"}
+::: {.column #vcenter width="40%"}
 <br/>
 
 -   Decrease=L.IUU -- IUU
@@ -163,7 +165,7 @@ Vessel Types
 -   IUU decrease=0, otherwise
 :::
 
-::: {.column width="55%"}
+::: {.column #vcenter width="55%"}
 |                                    | ~(1)~                   | ~(2)~                   | ~(3)~                   |
 |-------------------|------------------|------------------|------------------|
 | ~IUU decrease~                     | ~1.852\*\*~ ~(0.731)~   | ~1.618\*\*\*~ ~(0.503)~ | ~0.858~ ~(0.616)~       |
