@@ -88,7 +88,7 @@
     "href": "index.html#vessel-traffic-dataset-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Vessel Traffic dataset",
-    "text": "Vessel Traffic dataset\n\nSatellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)\n\nProprietary data provided for research by Fleetmon\n\n2-hour time-stamp\nDestination/flags\nTypes of ship\n\n\nUnit of analysis: Grid-cell (55km X 55km)"
+    "text": "Vessel Traffic dataset\n\nSatellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)\n\nProprietary data provided for research by Fleetmon\n\n2-hour time-stamp\nDestination/flags\nTypes of ship\n\n\nUnit of analysis: Grid-cell (55km X 55km) month"
   },
   {
     "objectID": "index.html#grid-cell-level-55km-x-55km",
@@ -119,6 +119,13 @@
     "text": "Zooming in\n\n\n\n\n\n\n\nDecember 2017\n\n\n\n\n\n\n\n\nJanuary 2018"
   },
   {
+    "objectID": "index.html#model-fixed-effect-estimator",
+    "href": "index.html#model-fixed-effect-estimator",
+    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
+    "section": "Model: Fixed effect estimator",
+    "text": "Model: Fixed effect estimator\n\n\n\\[ \\Delta Y_{it} = \\beta\\Delta Piracy_{it}+\\Delta U_{it} \\] Where, \\(i\\) is for grid-cell and \\(t\\) is month, and \\(\\Delta Y_{it}\\) is the change in vessel traffic in log form, as explained by \\(\\Delta Piracy_{it}\\)"
+  },
+  {
     "objectID": "index.html#section-3",
     "href": "index.html#section-3",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
@@ -126,31 +133,17 @@
     "text": "Decrease=L.IUU – IUU\nIUU decrease=1 if decrease>10%\nIUU decrease=0, otherwise\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decrease\n1.852** (0.731)\n1.618*** (0.503)\n0.858 (0.616)\n\n\nVessel Traffic log (yearly mean)\n1.003*** (0.046)\n0.979*** (0.044)\n0.977*** (0.045)\n\n\nNear nightlight\n\n5.402*** (1.183)\n5.405*** (1.183)\n\n\nPort count\n\n1.379*** (0.160)\n1.379*** (0.161)\n\n\nPSDKP bases\n\n0.265 (0.352)\n0.262 (0.353)\n\n\nIUU decrease X Traffic\n\n\n0.166 (0.150)\n\n\nObservation\n66248\n66248\n66248"
   },
   {
-    "objectID": "index.html#decrease-in-iuu-opportunity-targets-piracy-presence",
-    "href": "index.html#decrease-in-iuu-opportunity-targets-piracy-presence",
+    "objectID": "index.html#more-questions",
+    "href": "index.html#more-questions",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Decrease in IUU, opportunity targets & piracy presence",
-    "text": "Decrease in IUU, opportunity targets & piracy presence"
+    "section": "More questions",
+    "text": "More questions\n\nDo we find the ripple effect beyond the grid-cell?\nHow does this translate into actual cost of disruption to trade?"
   },
   {
-    "objectID": "index.html#different-cutpoints-of-illegal-fishing-decline",
-    "href": "index.html#different-cutpoints-of-illegal-fishing-decline",
+    "objectID": "index.html#conclusion",
+    "href": "index.html#conclusion",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Different cutpoints of illegal fishing decline",
-    "text": "Different cutpoints of illegal fishing decline"
-  },
-  {
-    "objectID": "index.html#decrease-in-legal-fishing-opportunity-piracy",
-    "href": "index.html#decrease-in-legal-fishing-opportunity-piracy",
-    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Decrease in legal fishing, opportunity, & piracy",
-    "text": "Decrease in legal fishing, opportunity, & piracy"
-  },
-  {
-    "objectID": "index.html#section-4",
-    "href": "index.html#section-4",
-    "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "",
-    "text": "Conclusion\n\nIllegal fishing is associated with piracy, but not simple correlation\nIn Indonesia, locals engaged in illegal fishing, turn to piracy when IUUF catch is constrained\nWithout addressing community-level grievances, enforcement that effectively restricts IUU fishing can increase sea-piracy"
+    "section": "Conclusion",
+    "text": "Conclusion\nQuestions/Comments"
   }
 ]
