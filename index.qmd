@@ -1,5 +1,5 @@
 ---
-title: "Research Presentation"
+title: "Maritime Piracy and its Effect on Vessel Traffic in West Africe"
 author: "Anup Phayal"
 date: " "
 format:
@@ -13,6 +13,22 @@ css: styles.css
 ## Intro {.centit}
 
 -   A part of the research project on Maritime Security
+-   Collaboration between UT, Knoxville and UNCW, 2020-2023
+-   Funded by Office of Naval Research (Minerva Research Initiative)
+
+## Outputs at various stages
+
+
+
+|               Published/under review                     | In process                   | 
+|------------------------------------|-------------------------|
+| Interstate relaotions & piracy (Maritime Security)         | Indonesia - Survey of fishers (ongoing)   | 
+| IUU fishing and piracy in Indonesia (Political Geography ) | *Piracy & vessel traffic/trade*       | 
+| Covid & piracy   (IASR)                                    |                                         |
+| Maritime Piracy & Foreign Policy   (Oxford Research Encyclopedia)|            |
+| Blogs & media (The Washington Post, Political Violence at a Glance etc)|            |
+: {tbl-colwidths="\[60,40\]"}
+
 
 <!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
 
@@ -118,7 +134,6 @@ January 2018
 :::
 :::
 
-
 ##  {.smaller}
 
 Vessel Types
@@ -126,20 +141,14 @@ Vessel Types
 ::: container
 ::: {.column width="49%"}
 ![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
-
 :::
 
 ::: {.column width="49%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
 ![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
-
 :::
 :::
-
-
-
-
 
 ##  {.smaller}
 
