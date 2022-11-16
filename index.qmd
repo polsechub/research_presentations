@@ -123,16 +123,9 @@ Vessel Types
 :::
 :::
 
-## Vessel Traffic dataset
 
--   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
-    -   Proprietary data provided for research by Fleetmon
-        -   2-hour time-stamp
-        -   Destination/flags
-        -   Types of ship
--   Unit of analysis: Grid-cell (55km X 55km) month
 
-# 
+## Unit of analysis {.centering}
 
 ::: container
 Unit of analysis: Grid-cell (55km X 55km) month
@@ -158,7 +151,7 @@ June 2014
 :::
 :::
 
-## Exploring data 
+## Exploring the data {.centering}
 </br>
 Any descriptive evidence of piracy in a grid-cell disrupting the vessel traffic?
 

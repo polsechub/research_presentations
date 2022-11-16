@@ -84,11 +84,11 @@
     "text": "Vessel Types"
   },
   {
-    "objectID": "index.html#vessel-traffic-dataset-1",
-    "href": "index.html#vessel-traffic-dataset-1",
+    "objectID": "index.html#unit-of-analysis",
+    "href": "index.html#unit-of-analysis",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Vessel Traffic dataset",
-    "text": "Vessel Traffic dataset\n\nSatellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)\n\nProprietary data provided for research by Fleetmon\n\n2-hour time-stamp\nDestination/flags\nTypes of ship\n\n\nUnit of analysis: Grid-cell (55km X 55km) month"
+    "section": "Unit of analysis",
+    "text": "Unit of analysis\n\nUnit of analysis: Grid-cell (55km X 55km) month"
   },
   {
     "objectID": "index.html#grid-cell-level",
@@ -98,22 +98,22 @@
     "text": "Grid-cell level\n\nJune 2014"
   },
   {
-    "objectID": "index.html#exploring-data",
-    "href": "index.html#exploring-data",
+    "objectID": "index.html#exploring-the-data",
+    "href": "index.html#exploring-the-data",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Exploring data",
-    "text": "Exploring data\n Any descriptive evidence of piracy in a grid-cell disrupting the vessel traffic?"
+    "section": "Exploring the data",
+    "text": "Exploring the data\n Any descriptive evidence of piracy in a grid-cell disrupting the vessel traffic?"
   },
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "Zooming in\n\n\n\n\n\n\n\nDecember 2017\n\n\n\n\n\n\n\n\nJanuary 2018"
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "Zooming in further …\n\n\n\n\n\n\n\nDecember 2017\n\n\n\n\n\n\n\n\nJanuary 2018"
@@ -126,22 +126,22 @@
     "text": "Model\n\nFixed effect estimator (two-way)\n\n\n\\[ \\Delta Y_{it} = \\beta\\Delta Piracy_{it} +\\alpha_{i} +\\mu_{t}+\\Delta U_{it} \\] Where, \\(i\\) is for grid-cell and \\(t\\) is month, and \\(\\Delta Y_{it}\\) is the change in vessel traffic in log form, as explained by \\(\\Delta Piracy_{it}\\)"
   },
   {
-    "objectID": "index.html#section-4",
-    "href": "index.html#section-4",
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "FE Regression Results (Clustered SE)\n\n\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n    Model 3 \n    Model 4 \n  \n \n\n  \n    Piracy n (monthly) \n    −0.047** \n     \n     \n     \n  \n  \n     \n    (0.021) \n     \n     \n     \n  \n  \n    Piracy n (monthly) Lag-1 \n     \n    −0.068*** \n     \n     \n  \n  \n     \n     \n    (0.021) \n     \n     \n  \n  \n    Piracy n (monthly) Lag-2 \n     \n     \n    −0.032 \n     \n  \n  \n     \n     \n     \n    (0.021) \n     \n  \n  \n    Piracy n (monthly) Lag-3 \n     \n     \n     \n    −0.012 \n  \n  \n     \n     \n     \n     \n    (0.021) \n  \n  \n    Num.Obs. \n    89424 \n    89424 \n    89424 \n    89424 \n  \n  \n    RMSE \n    0.47 \n    0.47 \n    0.47 \n    0.47 \n  \n  \n    Std.Errors \n    HC3 \n    HC3 \n    HC3 \n    HC3 \n  \n\n\n * p < 0.1, ** p < 0.05, *** p < 0.01"
   },
   {
-    "objectID": "index.html#section-5",
-    "href": "index.html#section-5",
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "Last result was for “all” vessel types\nIf piracy affects trade, we should see enhanced effect on “Cargo” and “Oil Tankers”"
   },
   {
-    "objectID": "index.html#section-6",
-    "href": "index.html#section-6",
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
     "text": "FE Regression Results (Clustered SE): Only “Cargo” & “Oil Tankers”\n\n\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n    Model 3 \n    Model 4 \n  \n \n\n  \n    Piracy n (monthly) \n    −0.028 \n     \n     \n     \n  \n  \n     \n    (0.018) \n     \n     \n     \n  \n  \n    Piracy n (monthly) Lag-1 \n     \n    −0.056*** \n     \n     \n  \n  \n     \n     \n    (0.018) \n     \n     \n  \n  \n    Piracy n (monthly) Lag-2 \n     \n     \n    −0.043** \n     \n  \n  \n     \n     \n     \n    (0.018) \n     \n  \n  \n    Piracy n (monthly) Lag-3 \n     \n     \n     \n    −0.042** \n  \n  \n     \n     \n     \n     \n    (0.018) \n  \n  \n    Num.Obs. \n    89424 \n    89424 \n    89424 \n    89424 \n  \n  \n    RMSE \n    0.40 \n    0.40 \n    0.40 \n    0.40 \n  \n  \n    Std.Errors \n    HC3 \n    HC3 \n    HC3 \n    HC3 \n  \n\n\n * p < 0.1, ** p < 0.05, *** p < 0.01"
