@@ -11,27 +11,33 @@ format:
 css: styles.css
 ---
 
-## Intro {.centit}
+## The Project {.centit}
 
--   A part of the research project on Maritime Security
+-   A part of a larger research project on Maritime crime & security
 -   Collaboration between UT, Knoxville & UNCW
 -   Funded by Office of Naval Research (Minerva Research Initiative), 2020-2023
 
+
 ## Outputs at various stages {.smaller}
 
-<br>
+(2022) Interstate hostility and maritime crime: Evidence from South East Asia. *Marine Policy*
 
-| Published/under review                                                    | In process                              |
-|------------------------------------------|------------------------------|
-| Interstate relations & piracy onset (Maritime Security)                   | Indonesia - Survey of fishers (ongoing) |
-| IUU fishing & piracy in Indonesia (Political Geography)                   | *Piracy & vessel traffic/trade*         |
-| Covid & piracy (IASR)                                                     |                                         |
-| Maritime Piracy & Foreign Policy (Oxford Research Encyclopedia)           |                                         |
-| Blogs & media (The Washington Post, Political Violence at a Glance, etc.) |                                         |
+(2022) Maritime Piracy and Foreign Policy. In *Oxford Research Encyclopedia of Politics*
 
-: {tbl-colwidths="\[60,40\]"}
+(In publication) COVID-19 & piracy  *International Area Studies Review*
 
-<!-- ![](input/sudan_09.jpg){style="height: 400px;" fig-align="center"} -->
+(Under Review)  IUU fishing & piracy in Indonesia *Political Geography*
+
+(Ongoing) Indonesia - Survey of fishers
+
+(Ongoing) Piracy & vessel traffic in the Gulf of Guinea
+
+**Media & Blogs**
+
+(2021) "Fights over Maritime Boundaries are Creating Safe Zones for Pirates." *The Monkey Cage, Washington Post* 
+(2021) "How History Predicts COVID-19’s Impact on Maritime Piracy." *Homeland Security Today*
+
+
 
 ## Background
 
@@ -53,7 +59,7 @@ css: styles.css
 
 -   But the availability of Automatic Identification System (AIS) data can be immensely helpful
 
-    -   For instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data
+    -   For instance, recent work by economists Sandkamp, Stamer & Yang (2021): daily ship data
 
     -   We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
 
@@ -74,7 +80,7 @@ css: styles.css
 -   But increasing in other parts of the world
 -   Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces
 
-*H1: Piracy incidents are likely lower vessel traffic at the local level.*
+*H1: Piracy incidents in an area should lead to lower vessel traffic movement at the local level*
 
 ## Empirical Strategy
 
@@ -196,7 +202,6 @@ January 2018
 
 $$ \Delta Y_{it} = \beta\Delta Piracy_{it} +\alpha_{i} +\mu_{t}+\Delta U_{it} $$ Where, $i$ is for grid-cell and $t$ is month, and $\Delta Y_{it}$ is the change in vessel traffic in log form, as explained by $\Delta Piracy_{it}$
 
-
 ##  {.smaller}
 
 FE Regression Results (Clustered SE)
@@ -204,7 +209,9 @@ FE Regression Results (Clustered SE)
 </br>
 
 ```{r}
-library(tidyverse)
+#| cache: true
+
+library(dplyr)
 library(plm)
 library(sf)
 library(modelsummary)
@@ -259,12 +266,10 @@ modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = 
 
 ```
 
-
-
 ## 
 
-- In the above, we focus on "all" vessel types
-- If piracy affects trade, we should see enhanced effect on "Cargo" and "Oil Tankers"
+-   In the above, we focus on "all" vessel types
+-   If piracy affects trade, we should see enhanced effect on "Cargo" and "Oil Tankers"
 
 ##  {.smaller}
 
@@ -273,14 +278,8 @@ FE Regression Results (Clustered SE): Including only "Cargo" and "Oil Tankers"
 </br>
 
 ```{r}
-library(tidyverse)
-library(plm)
-library(sf)
-library(modelsummary)
-library(expss)
-library(sandwich)
-
-
+#| cache: true
+#| 
 load("input/data/monthly_ais_cargo_tanker_mpeld_prio.RData")
 
 gogprio<-gogprio_sf %>% st_drop_geometry()

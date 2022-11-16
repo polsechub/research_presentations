@@ -7,18 +7,18 @@
     "text": "1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html#intro",
-    "href": "index.html#intro",
+    "objectID": "index.html#the-project",
+    "href": "index.html#the-project",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
-    "section": "Intro",
-    "text": "Intro\n\nA part of the research project on Maritime Security\nCollaboration between UT, Knoxville & UNCW\nFunded by Office of Naval Research (Minerva Research Initiative), 2020-2023"
+    "section": "The Project",
+    "text": "The Project\n\nA part of a larger research project on Maritime crime & security\nCollaboration between UT, Knoxville & UNCW\nFunded by Office of Naval Research (Minerva Research Initiative), 2020-2023"
   },
   {
     "objectID": "index.html#outputs-at-various-stages",
     "href": "index.html#outputs-at-various-stages",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Outputs at various stages",
-    "text": "Outputs at various stages\n\n\n\n\n\n\n\n\nPublished/under review\nIn process\n\n\n\n\nInterstate relations & piracy onset (Maritime Security)\nIndonesia - Survey of fishers (ongoing)\n\n\nIUU fishing & piracy in Indonesia (Political Geography)\nPiracy & vessel traffic/trade\n\n\nCovid & piracy (IASR)\n\n\n\nMaritime Piracy & Foreign Policy (Oxford Research Encyclopedia)\n\n\n\nBlogs & media (The Washington Post, Political Violence at a Glance, etc.)"
+    "text": "Outputs at various stages\n\nInterstate hostility and maritime crime: Evidence from South East Asia. Marine Policy\nMaritime Piracy and Foreign Policy. In Oxford Research Encyclopedia of Politics\n\n(In publication) COVID-19 & piracy International Area Studies Review\n(Under Review) IUU fishing & piracy in Indonesia Political Geography\n(Ongoing) Indonesia - Survey of fishers\n(Ongoing) Piracy & vessel traffic in the Gulf of Guinea\nMedia & Blogs\n\n“Fights over Maritime Boundaries are Creating Safe Zones for Pirates.” The Monkey Cage, Washington Post\n“How History Predicts COVID-19’s Impact on Maritime Piracy.” Homeland Security Today"
   },
   {
     "objectID": "index.html#background",
@@ -39,7 +39,7 @@
     "href": "index.html#indirect-costs-of-piracy",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Indirect costs of piracy?",
-    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp1, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress!"
+    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress!"
   },
   {
     "objectID": "index.html#piracy-trade",
@@ -53,7 +53,7 @@
     "href": "index.html#piracy-trade-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Piracy & Trade",
-    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden\nInternational efforts to tackle piracy lowered\nBut increasing in other parts of the world\nPiracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces\n\nH1: Piracy incidents are likely lower vessel traffic at the local level."
+    "text": "Piracy & Trade\n\nThe problem of piracy peaked after mid-2000s\nMainly driven by Somali pirates in the Gulf of Aden\nInternational efforts to tackle piracy lowered\nBut increasing in other parts of the world\nPiracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces\n\nH1: Piracy incidents in an area should lead to lower vessel traffic movement at the local level"
   },
   {
     "objectID": "index.html#empirical-strategy",
