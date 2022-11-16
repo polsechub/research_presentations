@@ -130,7 +130,7 @@ Vessel Types
 ::: container
 Unit of analysis: Grid-cell (55km X 55km) month
 
-![](input/world_gridcell_piracy.png){style="height: 150%;" fig-align="center;"}
+![](input/world_gridcell_piracy.png){style="height: 110%;" fig-align="center;"}
 :::
 
 ## Grid-cell level
