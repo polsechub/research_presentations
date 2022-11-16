@@ -125,7 +125,7 @@ Vessel Types
 
 
 
-## Unit of analysis {.centering}
+##  {.centering}
 
 ::: container
 Unit of analysis: Grid-cell (55km X 55km) month
