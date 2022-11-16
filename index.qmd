@@ -134,15 +134,13 @@ Vessel Types
 
 # 
 
-:::: {.container} 
-Unit of analysis: Grid-cell (55km X 55km) month 
-
+::: container
+Unit of analysis: Grid-cell (55km X 55km) month
 
 ![](input/world_gridcell_piracy.png){style="height: 150%;" fig-align="center;"}
 :::
 
-
-## Grid-cell level (55km X 55km)
+## Grid-cell level
 
 </br>
 
@@ -160,9 +158,9 @@ June 2014
 :::
 :::
 
-## Eyeballing the data
-
--   Do we see piracy in the grid-cell disrupt the vessel traffic?
+## Exploring data 
+</br>
+Any descriptive evidence of piracy in a grid-cell disrupting the vessel traffic?
 
 ##  {.smaller}
 
@@ -204,7 +202,11 @@ January 2018
 :::
 :::
 
-## Model: Fixed effect estimator (two-way)
+## Model
+
+</br>
+
+Fixed effect estimator (two-way)
 
 </br>
 
@@ -278,12 +280,12 @@ modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = 
 
 ## 
 
--   In the above, we focus on "all" vessel types
+-   Last result was for "all" vessel types
 -   If piracy affects trade, we should see enhanced effect on "Cargo" and "Oil Tankers"
 
 ##  {.smaller}
 
-FE Regression Results (Clustered SE): Including only "Cargo" and "Oil Tankers"
+**FE Regression Results (Clustered SE): Only "Cargo" & "Oil Tankers"**
 
 </br>
 
