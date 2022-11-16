@@ -29,7 +29,7 @@ css: styles.css
 
 (Ongoing) Indonesia - Survey of fishers
 
-(Ongoing) Piracy & vessel traffic in the Gulf of Guinea 
+(Ongoing) Piracy & vessel traffic in the Gulf of Guinea
 
 </br>
 
@@ -131,6 +131,16 @@ Vessel Types
         -   Destination/flags
         -   Types of ship
 -   Unit of analysis: Grid-cell (55km X 55km) month
+
+# 
+
+:::: {.container} 
+Unit of analysis: Grid-cell (55km X 55km) month 
+
+
+![](input/world_gridcell_piracy.png){style="height: 150%;" fig-align="center;"}
+:::
+
 
 ## Grid-cell level (55km X 55km)
 
