@@ -41,6 +41,7 @@ css: styles.css
 
 ## Background
 
+-   Maritime piracy: attack & robbery on ships
 -   Piracy is costly
 -   International Maritime Bureau estimates: \$1-9 bn/year
 -   UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
@@ -49,9 +50,8 @@ css: styles.css
 
 ## Research Question
 
--   Indirect consequences of maritime piracy
+-   How does maritime piracy affect international trade ?
 
--   How does maritime piracy influence international trade (narrower: vessel traffic) ?
 
 ## Indirect costs of piracy?
 
