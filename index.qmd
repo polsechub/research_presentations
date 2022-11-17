@@ -1,6 +1,6 @@
 ---
 title: "Maritime Piracy & its Effect on Vessel Traffic in West Africa"
-# author: "Anup Phayal"
+author: "Anup Phayal"
 date: " "
 format:
   revealjs:
@@ -8,6 +8,10 @@ format:
     slide-number: c/t
     theme: custom.scss
     center: true
+title-slide-attributes: 
+  data-background-image: input/uncw-logo-png-transparent.png
+  data-background-size: 15%
+  data-background-position: 50% 75%
 css: styles.css
 ---
 
