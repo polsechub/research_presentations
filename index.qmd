@@ -11,7 +11,7 @@ format:
 title-slide-attributes: 
   data-background-image: input/uncw-logo-png-transparent.png
   data-background-size: 15%
-  data-background-position: 50% 75%
+  data-background-position: 50% 85%
 css: styles.css
 ---
 
