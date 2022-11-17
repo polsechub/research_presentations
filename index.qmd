@@ -55,7 +55,7 @@ css: styles.css
 
 ## Indirect costs of piracy?
 
--   Most accounts of estimates anecdotal & "guesstimate" mainly due to lack of data
+-   Most accounts of estimates anecdotal & "hypothetical" mainly due to lack of data
 
 -   But the availability of Automatic Identification System (AIS) data can be immensely helpful
 
@@ -96,16 +96,18 @@ css: styles.css
 -   Build original Maritime Piracy Event & Location Dataset (1990-2019)
     -   Triangulating from three sources:
         -   International Maritime Bureau (IMB),
-        -   International Maritime Organization (IMO) and\
+        -   International Maritime Organization (IMO) and
         -   Anti-shipping Activity Messages (ASAM)
 
 ## Vessel Traffic dataset
 
--   Satellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)
-    -   Proprietary data provided for research by Fleetmon
-        -   2-hour time-stamp
-        -   Destination/flags
-        -   Types of ship
+-   Satellite and terrestrial AIS data, 
+    -   Tracking all ships 300 gross tonnage & up engaged on international voyages 
+    -   500 GT and up if NOT engaged in international voyages
+-   Proprietary data provided for research by Fleetmon
+    -   2-hour time-stamp
+    -   Destination/flags
+    -   Types of ship
 
 ##  {.smaller}
 
@@ -129,6 +131,8 @@ Vessel Types
 
 ::: container
 Unit of analysis: Grid-cell (55km X 55km) month
+
+From  January 2014 to 2019 December 2019
 
 ![](input/world_gridcell_piracy.png){style="height: 110%;" fig-align="center;"}
 :::

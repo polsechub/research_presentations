@@ -39,7 +39,7 @@
     "href": "index.html#indirect-costs-of-piracy",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Indirect costs of piracy?",
-    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “guesstimate” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress!"
+    "text": "Indirect costs of piracy?\n\nMost accounts of estimates anecdotal & “hypothetical” mainly due to lack of data\nBut the availability of Automatic Identification System (AIS) data can be immensely helpful\n\nFor instance, recent work by economists Sandkamp, Stamer & Yang (2021): daily ship data\nWe build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy\nWork in progress!"
   },
   {
     "objectID": "index.html#piracy-trade",
@@ -67,14 +67,14 @@
     "href": "index.html#maritime-piracy-dataset",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Maritime piracy dataset",
-    "text": "Maritime piracy dataset\n\nBuild original Maritime Piracy Event & Location Dataset (1990-2019)\n\nTriangulating from three sources:\n\nInternational Maritime Bureau (IMB),\nInternational Maritime Organization (IMO) and\n\nAnti-shipping Activity Messages (ASAM)"
+    "text": "Maritime piracy dataset\n\nBuild original Maritime Piracy Event & Location Dataset (1990-2019)\n\nTriangulating from three sources:\n\nInternational Maritime Bureau (IMB),\nInternational Maritime Organization (IMO) and\nAnti-shipping Activity Messages (ASAM)"
   },
   {
     "objectID": "index.html#vessel-traffic-dataset",
     "href": "index.html#vessel-traffic-dataset",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "Vessel Traffic dataset",
-    "text": "Vessel Traffic dataset\n\nSatellite and terrestrial AIS data, tracking all ships 300 gross tonnage and upwards engaged on international voyages (of 500 GT and up if not engaged in international voyages)\n\nProprietary data provided for research by Fleetmon\n\n2-hour time-stamp\nDestination/flags\nTypes of ship"
+    "text": "Vessel Traffic dataset\n\nSatellite and terrestrial AIS data,\n\nTracking all ships 300 gross tonnage & up engaged on international voyages\n500 GT and up if NOT engaged in international voyages\n\nProprietary data provided for research by Fleetmon\n\n2-hour time-stamp\nDestination/flags\nTypes of ship"
   },
   {
     "objectID": "index.html#section",
@@ -88,7 +88,7 @@
     "href": "index.html#section-1",
     "title": "Maritime Piracy & its Effect on Vessel Traffic in West Africa",
     "section": "",
-    "text": "Unit of analysis: Grid-cell (55km X 55km) month"
+    "text": "Unit of analysis: Grid-cell (55km X 55km) month\nFrom January 2014 to 2019 December 2019"
   },
   {
     "objectID": "index.html#grid-cell-level",
