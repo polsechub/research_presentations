@@ -134,7 +134,7 @@ Unit of analysis: Grid-cell (55km X 55km) month
 
 (Jan 2014 to Dec 2019)
 
-![](input/world_gridcell_piracy.png){style="height: 90%;" fig-align="center;"}
+![](input/world_gridcell_piracy.png){style="height: 80%;" fig-align="center;"}
 :::
 
 ## Grid-cell level
