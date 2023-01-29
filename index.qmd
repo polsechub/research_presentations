@@ -1,6 +1,10 @@
 ---
-title: "Maritime Piracy & its Effect on Vessel Traffic in West Africa"
-author: "Anup Phayal"
+title: "The Political Economy of Peacekeeping: Unemployment, Violence and Trust towards Peacekeepers - Evidence from Somalia"
+author: 
+  - name: Prabin Khadka
+    institute: Essex University
+  - name: Anup Phayal
+    institute: University of North Carolina Wilmington
 date: " "
 format:
   revealjs:
@@ -8,40 +12,41 @@ format:
     slide-number: c/t
     theme: custom.scss
     center: true
-title-slide-attributes: 
-  data-background-image: input/uncw-logo-png-transparent.png
-  data-background-size: 15%
-  data-background-position: 50% 97%
 css: styles.css
 ---
 
-## The Project {.centit}
+## Motivation {.centit}
 
--   A part of a larger research project on Maritime crime & security
--   Collaboration between UT, Knoxville & UNCW
--   Funded by Office of Naval Research (Minerva Research Initiative), 2020-2023
+-   Peacekeepers, local security & the RoL (Di Salvatore, 2019; Hultman et al. 2013, 2014; Nomikos, 2021, Ruggeri et al. 2017)
+-   Challenge: How & Why? (Walter et al. 2019)
+-   Recently, Peacekeeping & local economy (Beber et al. 2019)
+    -   Peacekeepers create local security bubbles (Mvukiyehe & Samii, 2021)
 
-## Project Outputs at various stages {.smaller}
+    -   Increase agricultural products (Caruso et al., 2017)
 
-\(2022\) Interstate hostility and maritime crime: Evidence from South East Asia. *Marine Policy*
+    -   Use of IT (Martin-Shilds & Bodanac, 2018)
 
-\(2022\) Maritime Piracy and Foreign Policy. In *Oxford Research Encyclopedia of Politics*
+    -   Improve subjective well-being (Bove et al. 2021)
 
-(In publication) COVID-19 & piracy *International Area Studies Review*
+## This study
 
-(Under Review) IUU fishing & piracy in Indonesia *Political Geography*
+**Research Question:** Does citizens' perception of economic condition shape trust towards peacekeepers in the region?
 
-(Ongoing) Indonesia - Survey of fishers
+**Hypothesized Mechanism**
 
-(Ongoing) Piracy & vessel traffic in the Gulf of Guinea
+-   Perceived economic status --\> perceived insecurity --\> More support/trust toward peacekeepers
 
-</br>
+## Method
 
-**Media & Blogs**
+-   Survey of 700 Somalis across 3 cities in Somalia: Mogadishu, Kismaayo, & Baidoa
 
-\(2021\) "Fights over Maritime Boundaries are Creating Safe Zones for Pirates." *The Monkey Cage, Washington Post*
+::: container
+::: {#vcenter .column width="90%"}
+![](input/local_survey_pic.png){style="height: 90%;" fig-align="center;"}
+:::
+:::
 
-\(2021\) "How History Predicts COVID-19's Impact on Maritime Piracy." *Homeland Security Today*
+-   Mediation analysis: Employment --\> Security perception --\> Trust/support peacekeepers
 
 ## Background
 
@@ -52,297 +57,81 @@ css: styles.css
     -   Direct costs (Ransom paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): \$200-300 million per year
 -   What about indirect costs on trade? <!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
 
-## Research Question
+## 
 
--   How does maritime piracy affect international trade ?
-
-
-## Indirect costs of piracy?
-
--   Most accounts of estimates anecdotal & "hypothetical" mainly due to lack of data
-
--   But the availability of Automatic Identification System (AIS) data can be immensely helpful
-
-    -   For instance, recent work by economists Sandkamp, Stamer & Yang (2021): daily ship data
-
-    -   We build on this work by using more fine-grained 2-hourly data to understand ship traffic behavior in the event of piracy
-
-    -   Work in progress!
-
-## Piracy & Trade
-
--   The problem of piracy peaked after mid-2000s
--   Mainly driven by Somali pirates in the Gulf of Aden
-
-![](input/yearly_piracy_all.png){style="height: 120%;" fig-align="center"}
-
-## Piracy & Trade
-
--   The problem of piracy peaked after mid-2000s
--   Mainly driven by Somali pirates in the Gulf of Aden
--   International efforts to tackle piracy lowered
--   But increasing in other parts of the world
--   Piracy should lead to disruption and delays in trade, as ships wait for the problem to avert or re-route utilizing safer spaces
-
-*H1: Piracy incidents in an area should lead to lower vessel traffic movement at the local level*
-
-## Empirical Strategy
-
--   Focus on the Gulf of Guinea (Nigeria, Benin, Togo, Cameroon, Ghana, Ivory Coast)
-
--   Utilize two main datasets at this stage:
-
-    -   Dataset on Maritime Piracy
-    -   Vessel traffic
-
-## Maritime piracy dataset
-
--   Build original Maritime Piracy Event & Location Dataset (1990-2019)
-    -   Triangulating from three sources:
-        -   International Maritime Bureau (IMB),
-        -   International Maritime Organization (IMO) and
-        -   Anti-shipping Activity Messages (ASAM)
-
-## Vessel Traffic dataset
-
--   Satellite and terrestrial AIS data, 
-    -   Tracking all ships 300 gross tonnage & up engaged on international voyages 
-    -   500 GT and up if NOT engaged in international voyages
--   Proprietary data provided for research by Fleetmon
-    -   2-hour time-stamp
-    -   Destination/flags
-    -   Types of ship
-
-##  {.smaller}
-
-Vessel Types
-
-::: container
-::: {#vcenter .column width="49%"}
-![](input/piechart_vesseltype_2014.png){style="height: 105%;" fig-align="left;"}
-:::
-
-::: {.column width="49%"}
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
-
-![](input/piechart_vesseltype_2019.png){style="height: 105%;" fig-align="right;"}
-:::
-:::
-
-
-
-##  {.centering}
-
-::: container
-Unit of analysis: Grid-cell (55km X 55km) month
-
-(Jan 2014 to Dec 2019)
-
-![](input/world_gridcell_piracy.png){style="height: 70%;" fig-align="center;"}
-:::
-
-## Grid-cell level
-
-</br>
-
-June 2014
+Past studies: Locals' trust towards peacekeepers - low
 
 ::: container
 ::: {.column width="48%"}
-![](input/monthly_raw_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
+![2014, 2016](input/presentation_fig1.png){style="height: 90%;" fig-align="center;"}
 :::
 
 ::: {.column width="48%"}
 <!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
 
-![](input/monthly_priogrid_viz_2014_6.png){style="height: 90%;" fig-align="center;"}
+![2020](input/presentation_fig2.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
 
-## Exploring the data {.centering}
+## Mediation Analysis {.centering}
+
 </br>
-Any descriptive evidence of piracy in a grid-cell disrupting the vessel traffic?
-
-##  {.smaller}
-
-Zooming in
 
 ::: container
-::: {.column width="49%"}
-![](input/gog_2017_12_piracy.png){style="height: 100%;" fig-align="left;"}
-
-December 2017
-:::
-
-::: {.column width="49%"}
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
-
-![](input/gog_2018_1_piracy.png){style="height: 100%;" fig-align="right;"}
-
-January 2018
+::: {.column width="90%"}
+![](input/fig_path.png){style="height: 90%;" fig-align="center;"}
 :::
 :::
 
-##  {.smaller}
+## Data
 
-Zooming in further ...
+::: {layout="[[70,30]]" layout-valign="center"}
+![](input/descriptive_table.png)
 
-::: container
-::: {.column width="49%"}
-![](input/gog_2017_12_piracy_ais_raw.png){style="height: 100%;" fig-align="left;"}
-
-December 2017
+![Survey Locations](input/survey_loc.png)
 :::
 
-::: {.column width="49%"}
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
-
-![](input/gog_2018_01_piracy_ais_raw.png){style="height: 100%;" fig-align="right;"}
-
-January 2018
-:::
-:::
-
-## Model
+## Results
 
 </br>
 
-Fixed effect estimator (two-way)
+Mediation Analysis 1 </br>
+
+::: {layout="[90]" layout-valign="center"}
+![](input/result_1.png)
+:::
+
+## Results
 
 </br>
 
+Mediation Analysis 2 </br>
+
+::: {layout="[90]" layout-valign="center"}
+![](input/result_2.png)
+:::
+
+## Results
+
 </br>
 
-$$ \Delta Y_{it} = \beta\Delta Piracy_{it} +\alpha_{i} +\mu_{t}+\Delta U_{it} $$ Where, $i$ is for grid-cell and $t$ is month, and $\Delta Y_{it}$ is the change in vessel traffic in log form, as explained by $\Delta Piracy_{it}$
+Main
 
-##  {.smaller}
-
-FE Regression Results (Clustered SE)
-
-</br>
-
-```{r}
-#| cache: true
-
-library(dplyr)
-library(plm)
-library(sf)
-library(modelsummary)
-library(expss)
-library(sandwich)
-
-
-load("input/data/monthly_ais_mpeld_prio.RData")
-
-gogprio<-gogprio_sf %>% st_drop_geometry()
-
-# adding lag
-
-gogprio.withlags<- gogprio %>%
-   mutate(monthly_piracy_lag1 = dplyr::lag(monthly_all_piracy_n, 1),
-          monthly_piracy_lag2 = dplyr::lag(monthly_all_piracy_n, 2),
-          monthly_piracy_lag3 = dplyr::lag(monthly_all_piracy_n, 3))  
-
-
-# estimate the fixed effects regression with plm()
-result_fe1 <- plm(log(mean_vessels+0.1) ~ monthly_all_piracy_n, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-result_fe2 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag1, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-
-result_fe3 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag2, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-result_fe4 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag3, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-
-result_fe<-list(result_fe1, result_fe2, result_fe3, result_fe4)
-
-
-modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = "AIC|R2|R2 Adj", vcov = "robust", 
-             coef_rename = c("monthly_all_piracy_n" = "Piracy n (monthly)",
-                                          "monthly_piracy_lag1" = "Piracy n (monthly) Lag-1",
-                                          "monthly_piracy_lag2" = "Piracy n (monthly) Lag-2",
-                                          "monthly_piracy_lag3" = "Piracy n (monthly) Lag-3"))
-
-
-```
+::: {layout="[140]" layout-valign="center"}
+![](input/result_3.png)
+:::
 
 ## 
 
--   Last result was for "all" vessel types
--   If piracy affects trade, we should see enhanced effect on "Cargo" and "Oil Tankers"
+**Implications**
 
-##  {.smaller}
+-   Feeling of insecurity key in whether or not people support/trust peacekeepers deployed in their area
 
-**FE Regression Results (Clustered SE): Only "Cargo" & "Oil Tankers"**
+**Questions**
 
-</br>
-
-```{r}
-#| cache: true
-#| 
-load("input/data/monthly_ais_cargo_tanker_mpeld_prio.RData")
-
-gogprio<-gogprio_sf %>% st_drop_geometry()
-
-# adding lag
-
-gogprio.withlags<- gogprio %>%
-   mutate(monthly_piracy_lag1 = dplyr::lag(monthly_all_piracy_n, 1),
-          monthly_piracy_lag2 = dplyr::lag(monthly_all_piracy_n, 2),
-          monthly_piracy_lag3 = dplyr::lag(monthly_all_piracy_n, 3))  
+-   Are we likely to find local support for peacekeepers wane as post-conflict societies become more peaceful and economically prosperous?
 
 
-# estimate the fixed effects regression with plm()
-result_fe1 <- plm(log(mean_vessels+0.1) ~ monthly_all_piracy_n, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-result_fe2 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag1, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-
-result_fe3 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag2, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-result_fe4 <- plm(log(mean_vessels+0.1) ~ monthly_piracy_lag3, 
-                    data = gogprio.withlags,
-                    index = c("gid", "yearmon"), 
-                    model = "within", effect = "twoways")
-
-
-result_fe<-list(result_fe1, result_fe2, result_fe3, result_fe4)
-
-
-modelsummary(result_fe, stars= c('*' = .1, '**' = .05, '***' = .01), gof_omit = "AIC|R2|R2 Adj", vcov = "robust", 
-             coef_rename = c("monthly_all_piracy_n" = "Piracy n (monthly)",
-                                          "monthly_piracy_lag1" = "Piracy n (monthly) Lag-1",
-                                          "monthly_piracy_lag2" = "Piracy n (monthly) Lag-2",
-                                          "monthly_piracy_lag3" = "Piracy n (monthly) Lag-3"))
-
-
-```
-
-## More questions
-
--   Do we find the ripple effect beyond the grid-cell?
--   How does this translate into actual cost of disruption to trade?
+-   May be policymakers should strive to foster more support towards local institutions like policy and military; and that waning support towards peacekeepers is a good thing?
 
 ## Questions/Comments {.centering}
