@@ -1,11 +1,10 @@
 ---
-title: "The Political Economy of Peacekeeping: Unemployment, Violence and Trust towards Peacekeepers - Evidence from Somalia"
-author: 
-  - name: Prabin Khadka
-    institute: Essex University
-  - name: Anup Phayal
-    institute: University of North Carolina Wilmington
+title: "The Political Economy of Peacekeeping: Unemployment, Violence and Trust towards Peacekeepers - Evidence from Somalia  \n    "
 date: " "
+author: 
+  - name: --
+  - name: Prabin Khadka, Essex University
+  - name: Anup Phayal, University of North Carolina Wilmington
 format:
   revealjs:
     highlight-style: github
@@ -15,20 +14,20 @@ format:
 css: styles.css
 ---
 
-## Motivation {.centit}
+
+## Motivation {.smaller}
 
 -   Peacekeepers, local security & the RoL (Di Salvatore, 2019; Hultman et al. 2013, 2014; Nomikos, 2021, Ruggeri et al. 2017)
 -   Challenge: How & Why? (Walter et al. 2019)
 -   Recently, Peacekeeping & local economy (Beber et al. 2019)
     -   Peacekeepers create local security bubbles (Mvukiyehe & Samii, 2021)
-
     -   Increase agricultural products (Caruso et al., 2017)
-
     -   Use of IT (Martin-Shilds & Bodanac, 2018)
-
     -   Improve subjective well-being (Bove et al. 2021)
 
 ## This study
+
+</br>
 
 **Research Question:** Does citizens' perception of economic condition shape trust towards peacekeepers in the region?
 
@@ -36,26 +35,20 @@ css: styles.css
 
 -   Perceived economic status --\> perceived insecurity --\> More support/trust toward peacekeepers
 
-## Method
+## 
+
+**Method**
 
 -   Survey of 700 Somalis across 3 cities in Somalia: Mogadishu, Kismaayo, & Baidoa
 
 ::: container
-::: {#vcenter .column width="90%"}
-![](input/local_survey_pic.png){style="height: 90%;" fig-align="center;"}
+::: {#vcenter .column width="80%"}
+![](input/local_survey_pic.png){style="height: 70%;" fig-align="center;"}
 :::
 :::
 
 -   Mediation analysis: Employment --\> Security perception --\> Trust/support peacekeepers
 
-## Background
-
--   Maritime piracy: attack & robbery on ships
--   Piracy is costly
--   International Maritime Bureau estimates: \$1-9 bn/year
--   UNODC, report by *Stable Seas* 2021, piracy costs in the Gulf of Guinea region
-    -   Direct costs (Ransom paid, losses from stolen oil and goods, spending on counter piracy efforts, prosecutions and legal effort): \$200-300 million per year
--   What about indirect costs on trade? <!-- - More salient question after the recent supply-chain problem & its effect on trade disruption -->
 
 ## 
 
