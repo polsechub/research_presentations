@@ -14,7 +14,6 @@ format:
 css: styles.css
 ---
 
-
 ## Motivation {.smaller}
 
 -   Peacekeepers, local security & the RoL (Di Salvatore, 2019; Hultman et al. 2013, 2014; Nomikos, 2021, Ruggeri et al. 2017)
@@ -48,7 +47,6 @@ css: styles.css
 :::
 
 -   Mediation analysis: Employment --\> Security perception --\> Trust/support peacekeepers
-
 
 ## 
 
@@ -123,7 +121,6 @@ Main
 **Questions**
 
 -   Are we likely to find local support for peacekeepers wane as post-conflict societies become more peaceful and economically prosperous?
-
 
 -   May be policymakers should strive to foster more support towards local institutions like policy and military; and that waning support towards peacekeepers is a good thing?
 
