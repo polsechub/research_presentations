@@ -1,0 +1,24 @@
+/* css styles */
+
+```{css, include=FALSE}
+
+.title {
+  font-size: 50px !important;
+<!-- color: red !important; -->
+}
+
+```
+
+
+```{css echo=FALSE}
+.centering {
+text-align: center;
+vertical-align: middle;
+}
+```
+```{css echo=FALSE}
+.container {
+text-align: center;
+}
+```
+
