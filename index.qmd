@@ -1,5 +1,5 @@
 ---
-title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing \n "
+title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing  \n  "
 date: " "
 author: 
   - name: Aaron Gold, Sewanee, University of the South
@@ -12,7 +12,6 @@ format:
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
-    center: true
 css: styles.css
 ---
 
