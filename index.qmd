@@ -1,6 +1,6 @@
 ---
-title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing  \n  "
-date: " "
+title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing    "
+subtitle: " ISA 2023 "
 author: 
   - name: Aaron Gold, Sewanee, University of the South
   - name: Curie Maharani, Binus University, Indonesia
@@ -12,6 +12,10 @@ format:
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
+title-slide-attributes: 
+  data-background-image: input/uncw-logo-png-transparent.png
+  data-background-size: 15%
+  data-background-position: 50% 97%
 css: styles.css
 ---
 
