@@ -1,10 +1,12 @@
 ---
-title: "The Political Economy of Peacekeeping: Unemployment, Violence and Trust towards Peacekeepers - Evidence from Somalia  \n    "
+title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing \n "
 date: " "
 author: 
-  - name: --
-  - name: Prabin Khadka, Essex University
+  - name: Aaron Gold, Sewanee, University of the South
+  - name: Curie Maharani, Binus University, Indonesia
   - name: Anup Phayal, University of North Carolina Wilmington
+  - name: Brandon Prins, University of Tennessee
+  - name: Sayed Fauzan Riyadi, Raja Ali Haji Maritime University, Indonesia
 format:
   revealjs:
     highlight-style: github
