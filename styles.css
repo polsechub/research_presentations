@@ -13,6 +13,17 @@
 
 ```
 
+```{css, include=FALSE}
+var resizeSlide = function() {
+   Reveal.configure({
+     width: window.innerWidth,
+     height: window.innerHeight
+   });
+}
+
+setInterval(resizeSlide, 1000);
+```
+
 
 ```{css echo=FALSE}
 .centering {
@@ -20,9 +31,11 @@ text-align: center;
 vertical-align: middle;
 }
 ```
+
 ```{css echo=FALSE}
 .container {
 text-align: center;
 }
 ```
+
 

@@ -7,46 +7,102 @@
     "text": "1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html#motivation",
-    "href": "index.html#motivation",
+    "objectID": "index.html#research-presentation",
+    "href": "index.html#research-presentation",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
-    "section": "Motivation",
-    "text": "Motivation\n\nPeacekeepers, local security & the RoL (Di Salvatore, 2019; Hultman et al. 2013, 2014; Nomikos, 2021, Ruggeri et al. 2017)\nChallenge: How & Why? (Walter et al. 2019)\nRecently, Peacekeeping & local economy (Beber et al. 2019)\n\nPeacekeepers create local security bubbles (Mvukiyehe & Samii, 2021)\nIncrease agricultural products (Caruso et al., 2017)\nUse of IT (Martin-Shilds & Bodanac, 2018)\nImprove subjective well-being (Bove et al. 2021)"
+    "section": "Research Presentation",
+    "text": "Research Presentation\n\nMaritime Security: Understanding the Causal Link Between Illegal Fishing And Maritime Piracy"
   },
   {
-    "objectID": "index.html#this-study",
-    "href": "index.html#this-study",
+    "objectID": "index.html#is-illegal-fishing-related-to-maritime-piracy",
+    "href": "index.html#is-illegal-fishing-related-to-maritime-piracy",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
-    "section": "This study",
-    "text": "This study\n\nResearch Question: Does citizens’ perception of economic condition shape trust towards peacekeepers in the region?\nHypothesized Mechanism\n\nPerceived economic status –> perceived insecurity –> More support/trust toward peacekeepers"
+    "section": "Is illegal fishing related to maritime piracy?",
+    "text": "Is illegal fishing related to maritime piracy?\n\nPast works: illegal fishing and piracy correlated\nForeign trawlers–>Deplete fishery–>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)\nBut seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)"
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
+    "objectID": "index.html#piracy-world-wide",
+    "href": "index.html#piracy-world-wide",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
-    "section": "",
-    "text": "Method\n\nSurvey of 700 Somalis across 3 cities in Somalia: Mogadishu, Kismaayo, & Baidoa\n\n\n\n\n\n\n\n\n\n\n\nMediation analysis: Employment –> Security perception –> Trust/support peacekeepers"
+    "section": "Piracy world-wide",
+    "text": "Piracy world-wide"
   },
   {
     "objectID": "index.html#section-1",
     "href": "index.html#section-1",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "",
-    "text": "Past studies: Locals’ trust towards peacekeepers - low\n\n\n\n\n\n2014, 2016\n\n\n\n\n\n\n\n\n2020"
+    "text": "Grid-Cell Analysis"
   },
   {
-    "objectID": "index.html#mediation-analysis",
-    "href": "index.html#mediation-analysis",
+    "objectID": "index.html#mechanism",
+    "href": "index.html#mechanism",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
-    "section": "Mediation Analysis",
-    "text": "Mediation Analysis"
+    "section": "Mechanism",
+    "text": "Mechanism\n\n\n\n\ngraph TD\n  A[\"<br/>  Potential   IUU perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;\"]-->B[\"<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> (Decline in IUU);  <br/> #160;\"]\n  B-->C[\"Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; \"]\n  C-->D[\"Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;\"]\n  \nlinkStyle default stroke:white,stroke-width:4px,color:white;"
   },
   {
-    "objectID": "index.html#data",
-    "href": "index.html#data",
+    "objectID": "index.html#hypotheses",
+    "href": "index.html#hypotheses",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
-    "section": "Data",
-    "text": "Data\n\n\n\n\n\n\n\n\n\nSurvey Locations"
+    "section": "Hypotheses",
+    "text": "Hypotheses\n\nPiracy incidents more likely in areas\n\nH1: where illegal fishing has declined\nH2: with high commercial vessel traffic\nH3: with high vessel traffic and a decline in illegal fishing"
+  },
+  {
+    "objectID": "index.html#research-design",
+    "href": "index.html#research-design",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
+  },
+  {
+    "objectID": "index.html#reported-unreported-fishing",
+    "href": "index.html#reported-unreported-fishing",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Reported & Unreported Fishing",
+    "text": "Reported & Unreported Fishing"
+  },
+  {
+    "objectID": "index.html#vessel-traffic-in-indoneisa",
+    "href": "index.html#vessel-traffic-in-indoneisa",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Vessel Traffic in Indoneisa",
+    "text": "Vessel Traffic in Indoneisa"
+  },
+  {
+    "objectID": "index.html#piracy-fishing-in-indonesia",
+    "href": "index.html#piracy-fishing-in-indonesia",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Piracy & fishing in Indonesia",
+    "text": "Piracy & fishing in Indonesia"
+  },
+  {
+    "objectID": "index.html#research-design-1",
+    "href": "index.html#research-design-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing in each grid-cell\nOpportunity: Ship traffic\n\nControl variable:\n\nHow close is the water from population centers – illegal fishers/pirates need market"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "Night lights extrapolated average, 2009"
+  },
+  {
+    "objectID": "index.html#research-design-2",
+    "href": "index.html#research-design-2",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing in each grid-cell\nOpportunity: Ship traffic\n\nControl variable:\n\nNight lights\nPorts in each grid-cells\nSecurity force bases in each grid-cell"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "(1)\n(2)\n(3)\n\n\n\n\nL.Iuu (log)\n0.386*** (-0.052)\n0.030 (-0.039)\n-0.210** (-0.092)\n\n\nnear_nightlight\n9.726*** (-1.32)\n6.801*** (-1.112)\n6.885*** (-1.122)\n\n\nport_count\n2.439*** (-0.238)\n1.408*** (-0.160)\n1.453*** (-0.163)\n\n\npsdkp_dum\n-0.054 (-0.227)\n-0.032 (-0.219)\n-0.026 (-0.218)\n\n\nTraffic log (year, mean)\n\n0.819*** (-0.042)\n0.463*** (-0.134)\n\n\ncL.iuu#c.log_traffic\n\n\n0.051*** (-0.019)\n\n\nAIC\n6301\n5892\n5888\n\n\nBIC\n6601\n6201\n6205\n\n\nObservation\n64077\n64077\n64077"
   },
   {
     "objectID": "index.html#results",
@@ -70,8 +126,8 @@
     "text": "Results\n\nMain"
   },
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "",
     "text": "Implications\n\nFeeling of insecurity key in whether or not people support/trust peacekeepers deployed in their area\n\nQuestions\n\nAre we likely to find local support for peacekeepers wane as post-conflict societies become more peaceful and economically prosperous?\nMay be policymakers should strive to foster more support towards local institutions like policy and military; and that waning support towards peacekeepers is a good thing?"

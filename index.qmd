@@ -1,7 +1,8 @@
 ---
-title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing    "
-subtitle: " ISA 2023 "
+title: Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing      
+
 author: 
+  - name: " --- "
   - name: Aaron Gold, Sewanee, University of the South
   - name: Curie Maharani, Binus University, Indonesia
   - name: Anup Phayal, University of North Carolina Wilmington
@@ -12,80 +13,163 @@ format:
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
-title-slide-attributes: 
-  data-background-image: input/uncw-logo-png-transparent.png
-  data-background-size: 15%
-  data-background-position: 50% 97%
+    center: true
 css: styles.css
 ---
 
-## Motivation {.smaller}
+## Research Presentation {.centit}
 
--   Peacekeepers, local security & the RoL (Di Salvatore, 2019; Hultman et al. 2013, 2014; Nomikos, 2021, Ruggeri et al. 2017)
--   Challenge: How & Why? (Walter et al. 2019)
--   Recently, Peacekeeping & local economy (Beber et al. 2019)
-    -   Peacekeepers create local security bubbles (Mvukiyehe & Samii, 2021)
-    -   Increase agricultural products (Caruso et al., 2017)
-    -   Use of IT (Martin-Shilds & Bodanac, 2018)
-    -   Improve subjective well-being (Bove et al. 2021)
+::: {style="font-size: 2.1em; text-align: center"}
+Maritime Security: Understanding the Causal Link Between Illegal Fishing And Maritime Piracy
+:::
 
-## This study
+## Is illegal fishing related to maritime piracy?
 
-</br>
+-   Past works: illegal fishing and piracy correlated
+-   **Foreign trawlers**--\>Deplete fishery--\>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
+-   But seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)
 
-**Research Question:** Does citizens' perception of economic condition shape trust towards peacekeepers in the region?
+# 
 
-**Hypothesized Mechanism**
+![](input/pirates_by_frecon.jpg){style="height: 70%;" fig-align="center"}
 
--   Perceived economic status --\> perceived insecurity --\> More support/trust toward peacekeepers
+::: {style="font-size: .5em; text-align: center; margin: -10em;"}
+Photo credit: Eric Frécon
+:::
+
+<!-- for centering heading-2 below, see .css file -->
+
+## Piracy world-wide
+
+![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"}
+
+##  {background-image="input/world_gridcell_piracy.png" background-size="100%"}
+
+[Grid-Cell Analysis]{.r-fit-text}
+
+## Mechanism
+
+```{mermaid}
+%%| fig-width: 3.0
+%%|position: 'center'
+graph TD
+  A["<br/>  Potential   IUU perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;"]-->B["<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> (Decline in IUU);  <br/> #160;"]
+  B-->C["Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; "]
+  C-->D["Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;"]
+  
+linkStyle default stroke:white,stroke-width:4px,color:white;
+
+```
+
+```{=html}
+<style>
+    .arrowheadPath{
+         fill:white !important;
+    }
+    </style>
+```
+<!-- &emsp; Adds 4 spaces, and ;&ensp; Adds 2 spaces -->
+
+## Hypotheses
+
+<br />
+
+***Piracy incidents more likely in areas***
+
+<br />
+
+*H1: where illegal fishing has declined*
+
+*H2: with high commercial vessel traffic*
+
+*H3: with high vessel traffic and a decline in illegal fishing*
+
+## Research Design
+
+<br />
+
+Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
+
+<br />
+
+Independent variables:
+
+-   IUU fishing decline in each grid-cell (10% or more)
+-   Opportunity: Ship traffic
+
+<!-- ##  {background-image="input/fishing_trend_indonesia.png" background-size="80%"} -->
+
+<!-- [Reported and Unreported Fishing in Indonesia]{.r-fit-text} -->
+
+## Reported & Unreported Fishing {.centit}
+
+![](input/fishing_trend_indonesia.png){style="width: 150%;" fig-align="center;"}
+
+## Vessel Traffic in Indoneisa {.centit}
+
+![](input/indonesia.traffic.yearly.average.mmsi.png){style="height: 100%;" fig-align="center;"}
+
+## Piracy & fishing in Indonesia
+
+![](input/piracy_fishing_indonesia.png){style="height: 90%;" fig-align="center;"}
+
+## Research Design
+
+<br />
+
+Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
+
+<br />
+
+Independent variables:
+
+-   IUU fishing in each grid-cell
+-   Opportunity: Ship traffic
+
+Control variable:
+
+-   How close is the water from population centers -- illegal fishers/pirates need market
 
 ## 
 
-**Method**
+[Night lights extrapolated average, 2009]{.r-fit-text}
 
--   Survey of 700 Somalis across 3 cities in Somalia: Mogadishu, Kismaayo, & Baidoa
+![](input/nlights_2009.png){style="height: 90%;" fig-align="center;"}
 
-::: container
-::: {#vcenter .column width="80%"}
-![](input/local_survey_pic.png){style="height: 70%;" fig-align="center;"}
-:::
-:::
+## Research Design {.smaller}
 
--   Mediation analysis: Employment --\> Security perception --\> Trust/support peacekeepers
+<br />
 
-## 
+Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
 
-Past studies: Locals' trust towards peacekeepers - low
+<br />
 
-::: container
-::: {.column width="48%"}
-![2014, 2016](input/presentation_fig1.png){style="height: 90%;" fig-align="center;"}
-:::
+Independent variables:
 
-::: {.column width="48%"}
-<!-- [Night lights extrapolated average, 2009]{.r-fit-text} -->
+-   IUU fishing in each grid-cell
+-   Opportunity: Ship traffic
 
-![2020](input/presentation_fig2.png){style="height: 90%;" fig-align="center;"}
-:::
-:::
+Control variable:
 
-## Mediation Analysis {.centering}
+-   Night lights
+-   Ports in each grid-cells
+-   Security force bases in each grid-cell
 
-</br>
+##  {.smaller}
 
-::: container
-::: {.column width="90%"}
-![](input/fig_path.png){style="height: 90%;" fig-align="center;"}
-:::
-:::
+|                          |        \(1\)         |        \(2\)         |        \(3\)         |
+|--------------------|:----------------:|:----------------:|:----------------:|
+| L.Iuu (log)              | 0.386\*\*\* (-0.052) |    0.030 (-0.039)    | -0.210\*\* (-0.092)  |
+| near_nightlight          | 9.726\*\*\* (-1.32)  | 6.801\*\*\* (-1.112) | 6.885\*\*\* (-1.122) |
+| port_count               | 2.439\*\*\* (-0.238) | 1.408\*\*\* (-0.160) | 1.453\*\*\* (-0.163) |
+| psdkp_dum                |   -0.054 (-0.227)    |   -0.032 (-0.219)    |   -0.026 (-0.218)    |
+| Traffic log (year, mean) |                      | 0.819\*\*\* (-0.042) | 0.463\*\*\* (-0.134) |
+| cL.iuu#c.log_traffic     |                      |                      | 0.051\*\*\* (-0.019) |
+| AIC                      |         6301         |         5892         |         5888         |
+| BIC                      |         6601         |         6201         |         6205         |
+| Observation              |        64077         |        64077         |        64077         |
 
-## Data
-
-::: {layout="[[70,30]]" layout-valign="center"}
-![](input/descriptive_table.png)
-
-![Survey Locations](input/survey_loc.png)
-:::
+<!-- | Constant                 | -7.732\*\*\* (-0.503) | -7.717\*\*\* (-0.414) | -6.139\*\*\* (-0.658) | -->
 
 ## Results
 
