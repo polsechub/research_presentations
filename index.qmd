@@ -101,23 +101,34 @@ Independent variables:
 
 <!-- [Reported and Unreported Fishing in Indonesia]{.r-fit-text} -->
 
+
 ## Fish Produce in the Gulf of Guinea {.centit}
 
 
-::: {layout="[[-1], [1], [-1]]"}
+![](input/fish_dat.png){fig-align="center;"}
 
-![](input/fao_fish_produce.png){style="height: 100%;" fig-align="center;"}
+
+
+
+
+## Ports and Night lights {.centit}
+
+![](input/port_nightlight.png){style="height: 100%;" fig-align="center;"}
+
+## Traffic, June 2014
+
+::: {#vtraffic layout-ncol=2}
+
+
+![](input/monthly_raw_viz_2014_6.png)
+
+![](input/monthly_priogrid_viz_2014_6.png)
+
 :::
 
 
 
-## Vessel Traffic in Indoneisa {.centit}
 
-![](input/indonesia.traffic.yearly.average.mmsi.png){style="height: 100%;" fig-align="center;"}
-
-## Piracy & fishing in Indonesia
-
-![](input/piracy_fishing_indonesia.png){style="height: 90%;" fig-align="center;"}
 
 ## Research Design
 
