@@ -101,9 +101,15 @@ Independent variables:
 
 <!-- [Reported and Unreported Fishing in Indonesia]{.r-fit-text} -->
 
-## Reported & Unreported Fishing {.centit}
+## Fish Produce in the Gulf of Guinea {.centit}
 
-![](input/fishing_trend_indonesia.png){style="width: 150%;" fig-align="center;"}
+
+::: {layout="[[-1], [1], [-1]]"}
+
+![](input/fao_fish_produce.png){style="height: 100%;" fig-align="center;"}
+:::
+
+
 
 ## Vessel Traffic in Indoneisa {.centit}
 
