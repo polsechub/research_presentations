@@ -1,5 +1,5 @@
 ---
-title: Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing      
+title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing"  
 
 author: 
   - name: " --- "
@@ -10,11 +10,11 @@ author:
   - name: Sayed Fauzan Riyadi, Raja Ali Haji Maritime University, Indonesia
 format:
   revealjs:
-    tbl-cap-location: bottom
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
     center: true
+    tbl-cap-location: bottom
 css: styles.css
 ---
 
@@ -73,6 +73,8 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 
 ## Research Design
 
+::: {style="font-size:35px"}
+
 Unit of analysis: Grid-cell year
 
 Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
@@ -83,6 +85,8 @@ Independent variables:
 
 -   IUU fishing decline in each grid-cell (10% or more)
 -   Opportunity: Ship traffic
+
+:::
 
 <!-- ##  {background-image="input/fishing_trend_indonesia.png" background-size="80%"} -->
 
@@ -97,6 +101,8 @@ Independent variables:
 :::
 
 ## Research Design
+
+::: {style="font-size:35px"}
 
 Unit of analysis: Grid-cell year
 
@@ -113,6 +119,7 @@ Control variable:
 
 -   How close is the water from population centers -- illegal fishers/pirates need market
 -   Ports in each grid-cells
+:::
 
 ##  {.centit}
 
@@ -120,8 +127,10 @@ Control variable:
 
 ## Results
 
-::: {style="font-size:22px"}
 <!-- https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/ -->
+
+::: {style="font-size:22px"}
+
 
 |                       |    \(1\)     |    \(2\)     |    \(3\)     |
 |----------------------:|:------------:|:------------:|:------------:|
@@ -140,7 +149,7 @@ Control variable:
 |           Observation |    26377     |     4685     |     4685     |
 |                       |              |              |              |
 
-: Standard errors in parentheses </br> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[34, 22, 22, 22\];"}
+: Standard errors in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[34, 22, 22, 22\];"}
 :::
 
 ## Results
@@ -185,7 +194,7 @@ Mediation Analysis Results
 | Observation           | 4685         | 4685         |
 |                       |              |              |
 
-: Standard errors in parentheses </br> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"}
+: Standard errors in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"}
 :::
 
 ## Questions/Comments {.centering}
