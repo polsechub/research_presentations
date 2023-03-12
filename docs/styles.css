@@ -39,3 +39,15 @@ text-align: center;
 ```
 
 
+```{css echo=FALSE}
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+```
+
+

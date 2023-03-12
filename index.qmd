@@ -10,6 +10,7 @@ author:
   - name: Sayed Fauzan Riyadi, Raja Ali Haji Maritime University, Indonesia
 format:
   revealjs:
+    tbl-cap-location: bottom
     highlight-style: github
     slide-number: c/t
     theme: custom.scss
@@ -17,11 +18,9 @@ format:
 css: styles.css
 ---
 
-## Research Presentation {.centit}
+## Piracy world-wide
 
-::: {style="font-size: 2.1em; text-align: center"}
-Maritime Security: Understanding the Causal Link Between Illegal Fishing And Maritime Piracy
-:::
+![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"}
 
 ## Is illegal fishing related to maritime piracy?
 
@@ -29,25 +28,9 @@ Maritime Security: Understanding the Causal Link Between Illegal Fishing And Mar
 -   **Foreign trawlers**--\>Deplete fishery--\>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
 -   But seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)
 
-# 
-
-![](input/pirates_by_frecon.jpg){style="height: 70%;" fig-align="center"}
-
-::: {style="font-size: .5em; text-align: center; margin: -10em;"}
-Photo credit: Eric Frécon
-:::
-
 <!-- for centering heading-2 below, see .css file -->
 
-## Piracy world-wide
-
-![](input/yearly_piracy_all.png){style="height: 85%;" fig-align="center"}
-
-##  {background-image="input/world_gridcell_piracy.png" background-size="100%"}
-
-[Grid-Cell Analysis]{.r-fit-text}
-
-## Mechanism
+## Theory
 
 ```{mermaid}
 %%| fig-width: 3.0
@@ -84,9 +67,13 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 
 *H3: with high vessel traffic and a decline in illegal fishing*
 
+## Study area: Gulf of Guinea {.centit}
+
+![](input/fish_dat.png){fig-align="center;"}
+
 ## Research Design
 
-<br />
+Unit of analysis: Grid-cell year
 
 Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
 
@@ -101,38 +88,17 @@ Independent variables:
 
 <!-- [Reported and Unreported Fishing in Indonesia]{.r-fit-text} -->
 
-
-## Fish Produce in the Gulf of Guinea {.centit}
-
-
-![](input/fish_dat.png){fig-align="center;"}
-
-
-
-
-
-## Ports and Night lights {.centit}
-
-![](input/port_nightlight.png){style="height: 100%;" fig-align="center;"}
-
 ## Traffic, June 2014
 
-::: {#vtraffic layout-ncol=2}
-
-
+::: {#vtraffic layout-ncol="2"}
 ![](input/monthly_raw_viz_2014_6.png)
 
 ![](input/monthly_priogrid_viz_2014_6.png)
-
 :::
-
-
-
-
 
 ## Research Design
 
-<br />
+Unit of analysis: Grid-cell year
 
 Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
 
@@ -140,94 +106,86 @@ Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
 
 Independent variables:
 
--   IUU fishing in each grid-cell
+-   IUU fishing decline in each grid-cell (10% or more)
 -   Opportunity: Ship traffic
 
 Control variable:
 
 -   How close is the water from population centers -- illegal fishers/pirates need market
-
-## 
-
-[Night lights extrapolated average, 2009]{.r-fit-text}
-
-![](input/nlights_2009.png){style="height: 90%;" fig-align="center;"}
-
-## Research Design {.smaller}
-
-<br />
-
-Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
-
-<br />
-
-Independent variables:
-
--   IUU fishing in each grid-cell
--   Opportunity: Ship traffic
-
-Control variable:
-
--   Night lights
 -   Ports in each grid-cells
--   Security force bases in each grid-cell
 
-##  {.smaller}
+##  {.centit}
 
-|                          |        \(1\)         |        \(2\)         |        \(3\)         |
-|--------------------|:----------------:|:----------------:|:----------------:|
-| L.Iuu (log)              | 0.386\*\*\* (-0.052) |    0.030 (-0.039)    | -0.210\*\* (-0.092)  |
-| near_nightlight          | 9.726\*\*\* (-1.32)  | 6.801\*\*\* (-1.112) | 6.885\*\*\* (-1.122) |
-| port_count               | 2.439\*\*\* (-0.238) | 1.408\*\*\* (-0.160) | 1.453\*\*\* (-0.163) |
-| psdkp_dum                |   -0.054 (-0.227)    |   -0.032 (-0.219)    |   -0.026 (-0.218)    |
-| Traffic log (year, mean) |                      | 0.819\*\*\* (-0.042) | 0.463\*\*\* (-0.134) |
-| cL.iuu#c.log_traffic     |                      |                      | 0.051\*\*\* (-0.019) |
-| AIC                      |         6301         |         5892         |         5888         |
-| BIC                      |         6601         |         6201         |         6205         |
-| Observation              |        64077         |        64077         |        64077         |
-
-<!-- | Constant                 | -7.732\*\*\* (-0.503) | -7.717\*\*\* (-0.414) | -6.139\*\*\* (-0.658) | -->
+![](input/port_nightlight.png){style="height: 100%;" fig-align="center;"}
 
 ## Results
 
-</br>
+::: {style="font-size:22px"}
+<!-- https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/ -->
 
-Mediation Analysis 1 </br>
+|                       |    \(1\)     |    \(2\)     |    \(3\)     |
+|----------------------:|:------------:|:------------:|:------------:|
+|           IUU decline |  0.492\*\*   | 0.865\*\*\*  |    -0.312    |
+|                       |   (0.192)    |   (0.243)    |   (1.039)    |
+| Near nightlight dummy | 4.888\*\*\*  | 3.310\*\*\*  | 3.191\*\*\*  |
+|                       |   (0.474)    |   (0.794)    |   (0.786)    |
+|            Port count | 1.842\*\*\*  | 1.406\*\*\*  | 1.417\*\*\*  |
+|                       |   (0.266)    |   (0.351)    |   (0.354)    |
+|          High Traffic |              | 1.860\*\*\*  | 1.527\*\*\*  |
+|                       |              |   (0.454)    |   (0.477)    |
+|         IUU X Traffic |              |              |    1.276     |
+|                       |              |              |   (1.079)    |
+|              Constant | -8.429\*\*\* | -8.182\*\*\* | -7.760\*\*\* |
+|                       |   (0.455)    |   (0.762)    |   (0.817)    |
+|           Observation |    26377     |     4685     |     4685     |
+|                       |              |              |              |
 
-::: {layout="[90]" layout-valign="center"}
-![](input/result_1.png)
+: Standard errors in parentheses </br> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[34, 22, 22, 22\];"}
 :::
 
 ## Results
 
-</br>
+![](input/main_result.png){style="height: 90%;" fig-align="center;"}
 
-Mediation Analysis 2 </br>
+## Robustness
 
-::: {layout="[90]" layout-valign="center"}
-![](input/result_2.png)
-:::
-
-## Results
+</br> Do we find evidence that increased security patrol this year caused decline in IUU fishing (compared to last year), which in turn increased piracy onset?
 
 </br>
 
-Main
+Mediation Analysis
 
-::: {layout="[140]" layout-valign="center"}
-![](input/result_3.png)
+##  {.container}
+
+Mediation Analysis
+
+::: {layout="[90]" layout-valign="center" cap-location="center"}
+![](input/fig_path.png)
 :::
 
-## 
+##  {.container}
 
-**Implications**
+Mediation Analysis Results
 
--   Feeling of insecurity key in whether or not people support/trust peacekeepers deployed in their area
+::: {style="font-size:22px"}
+|                       | \(1\)        | \(2\)        |
+|-----------------------|--------------|--------------|
+| High patrol (lagged)  | 0.463\*      | 0.337        |
+|                       | (0.246)      | (0.237)      |
+| IUUF decline          |              | 0.781\*\*\*  |
+|                       |              | (0.226)      |
+| Hi Traffic            | 1.622\*\*\*  | 1.732\*\*\*  |
+|                       | (0.444)      | (0.446)      |
+| Near nightlight dummy | 3.036\*\*\*  | 3.213\*\*\*  |
+|                       | (0.778)      | (0.803)      |
+| Port count            | 1.351\*\*\*  | 1.377\*\*\*  |
+|                       | (0.344)      | (0.352)      |
+| Constant              | -7.814\*\*\* | -8.165\*\*\* |
+|                       | (0.712)      | (0.757)      |
+| Observation           | 4685         | 4685         |
+|                       |              |              |
 
-**Questions**
-
--   Are we likely to find local support for peacekeepers wane as post-conflict societies become more peaceful and economically prosperous?
-
--   May be policymakers should strive to foster more support towards local institutions like policy and military; and that waning support towards peacekeepers is a good thing?
+: Standard errors in parentheses </br> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"}
+:::
 
 ## Questions/Comments {.centering}
