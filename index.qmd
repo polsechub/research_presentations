@@ -73,7 +73,7 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 
 ## Research Design
 
-::: {style="font-size:35px"}
+::: {style="font-size:30px"}
 
 Unit of analysis: Grid-cell year
 
@@ -102,7 +102,7 @@ Independent variables:
 
 ## Research Design
 
-::: {style="font-size:35px"}
+::: {style="font-size:30px"}
 
 Unit of analysis: Grid-cell year
 
