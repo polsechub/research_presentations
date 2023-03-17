@@ -26,7 +26,7 @@ css: styles.css
 
 -   Past works: illegal fishing and piracy correlated
 -   **Foreign trawlers**--\>Deplete fishery--\>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
--   But seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)
+-   But seemingly plausible, lacks evidence (Denton and Harris 2021; Jesperson 2022)
 -   Our focus on the local-level illegal fishing
 
 <!-- for centering heading-2 below, see .css file -->
