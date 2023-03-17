@@ -39,7 +39,7 @@
     "href": "index.html#research-design",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Research Design",
-    "text": "Research Design\n\nData: Gulf of Guinea (1990-2018)\nUnit of analysis: Grid-cell year\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
+    "text": "Research Design\n\nData: Gulf of Guinea (1990-2018)\nUnit of analysis: Grid-cell year\nDV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
   },
   {
     "objectID": "index.html#traffic-june-2014",
@@ -88,7 +88,7 @@
     "href": "index.html#section-2",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "",
-    "text": "Mediation Analysis Results\n\n\nStandard errors in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n(1)\n(2)\n\n\n\n\nHigh patrol (lagged)\n0.463*\n0.337\n\n\n\n(0.246)\n(0.237)\n\n\nIUUF decline\n\n0.781***\n\n\n\n\n(0.226)\n\n\nHi Traffic\n1.622***\n1.732***\n\n\n\n(0.444)\n(0.446)\n\n\nNear nightlight dummy\n3.036***\n3.213***\n\n\n\n(0.778)\n(0.803)\n\n\nPort count\n1.351***\n1.377***\n\n\n\n(0.344)\n(0.352)\n\n\nConstant\n-7.814***\n-8.165***\n\n\n\n(0.712)\n(0.757)\n\n\nObservation\n4685\n4685"
+    "text": "Mediation Analysis Results onset\n\n\nDV: Piracy Onset, SE in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n(1)\n(2)\n\n\n\n\nHigh patrol (lagged)\n0.463*\n0.337\n\n\n\n(0.246)\n(0.237)\n\n\nIUUF decline\n\n0.781***\n\n\n\n\n(0.226)\n\n\nHi Traffic\n1.622***\n1.732***\n\n\n\n(0.444)\n(0.446)\n\n\nNear nightlight dummy\n3.036***\n3.213***\n\n\n\n(0.778)\n(0.803)\n\n\nPort count\n1.351***\n1.377***\n\n\n\n(0.344)\n(0.352)\n\n\nConstant\n-7.814***\n-8.165***\n\n\n\n(0.712)\n(0.757)\n\n\nObservation\n4685\n4685"
   },
   {
     "objectID": "index.html#questionscomments",

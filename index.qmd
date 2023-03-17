@@ -78,7 +78,7 @@ Data: Gulf of Guinea (1990-2018)
 
 Unit of analysis: Grid-cell year
 
-Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
+DV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
 
 <br />
 
@@ -169,7 +169,8 @@ Mediation Analysis
 
 ##  {.container}
 
-Mediation Analysis Results
+Mediation Analysis Results 
+ onset
 
 ::: {style="font-size:22px"}
 |                       | \(1\)        | \(2\)        |
@@ -189,7 +190,7 @@ Mediation Analysis Results
 | Observation           | 4685         | 4685         |
 |                       |              |              |
 
-: Standard errors in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"}
+: DV: Piracy Onset, SE in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"} 
 :::
 
 ## Questions/Comments {.centering}
