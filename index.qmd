@@ -68,9 +68,8 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 
 *H3: with high vessel traffic and a decline in illegal fishing*
 
-## Study area: Gulf of Guinea {.centit}
-
-![](input/fish_dat.png){fig-align="center;"}
+<!-- ## Study area: Gulf of Guinea {.centit} -->
+<!-- ![](input/fish_dat.png){fig-align="center;"} -->
 
 ## Research Design
 
