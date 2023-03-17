@@ -146,7 +146,7 @@ Control variable:
 |           Observation |    26377     |     4685     |     4685     |
 |                       |              |              |              |
 
-: Standard errors in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[34, 22, 22, 22\];"}
+: GEE regression for panel data, SE in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[34, 22, 22, 22\];"}
 :::
 
 ## Results

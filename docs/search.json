@@ -60,7 +60,7 @@
     "href": "index.html#results",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Results",
-    "text": "Results\n\n\n\n\nStandard errors in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUUF decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
+    "text": "Results\n\n\n\n\nGEE regression for panel data, SE in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUUF decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
   },
   {
     "objectID": "index.html#results-1",
