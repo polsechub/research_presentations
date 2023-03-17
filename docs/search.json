@@ -18,14 +18,14 @@
     "href": "index.html#is-illegal-fishing-related-to-maritime-piracy",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Is illegal fishing related to maritime piracy?",
-    "text": "Is illegal fishing related to maritime piracy?\n\nPast works: illegal fishing and piracy correlated\nForeign trawlers–>Deplete fishery–>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)\nBut seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)"
+    "text": "Is illegal fishing related to maritime piracy?\n\nPast works: illegal fishing and piracy correlated\nForeign trawlers–>Deplete fishery–>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)\nBut seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)\nOur focus on the local-level illegal fishing"
   },
   {
     "objectID": "index.html#theory",
     "href": "index.html#theory",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Theory",
-    "text": "Theory\n\n\n\n\ngraph TD\n  A[\"<br/>  Potential   IUU perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;\"]-->B[\"<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> (Decline in IUU);  <br/> #160;\"]\n  B-->C[\"Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; \"]\n  C-->D[\"Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;\"]\n  \nlinkStyle default stroke:white,stroke-width:4px,color:white;"
+    "text": "Theory\n\n\n\n\ngraph TD\n  A[\"<br/>  Potential   IUUF perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;\"]-->B[\"<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> Observe-Decline in illegal Fishing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;\"]\n  B-->C[\"Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; \"]\n  C-->D[\"Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;\"]\n  \nlinkStyle default stroke:white,stroke-width:4px,color:white;"
   },
   {
     "objectID": "index.html#hypotheses",
@@ -46,7 +46,7 @@
     "href": "index.html#research-design",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Research Design",
-    "text": "Research Design\n\nUnit of analysis: Grid-cell year\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
+    "text": "Research Design\n\nData: Gulf of Guinea (1990-2018)\nUnit of analysis: Grid-cell year\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
   },
   {
     "objectID": "index.html#traffic-june-2014",
@@ -67,7 +67,7 @@
     "href": "index.html#results",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Results",
-    "text": "Results\n\n\n\n\nStandard errors in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUU decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
+    "text": "Results\n\n\n\n\nStandard errors in parentheses  * p < 0.1, ** p < 0.05, *** p < 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUUF decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
   },
   {
     "objectID": "index.html#results-1",
@@ -81,7 +81,7 @@
     "href": "index.html#robustness",
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Robustness",
-    "text": "Robustness\n Do we find evidence that increased security patrol this year caused decline in IUU fishing (compared to last year), which in turn increased piracy onset?\n\nMediation Analysis"
+    "text": "Robustness\n Do we find evidence that increased security patrol in a given year causes the decline in IUU fishing (compared to last year), increasing piracy onset probabilities?"
   },
   {
     "objectID": "index.html#section-1",

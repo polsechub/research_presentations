@@ -27,6 +27,7 @@ css: styles.css
 -   Past works: illegal fishing and piracy correlated
 -   **Foreign trawlers**--\>Deplete fishery--\>Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)
 -   But seemingly plausible, no such evidence (Denton and Harris 2021; Jesperson 2022)
+-   Our focus on the local-level illegal fishing
 
 <!-- for centering heading-2 below, see .css file -->
 
@@ -36,7 +37,7 @@ css: styles.css
 %%| fig-width: 3.0
 %%|position: 'center'
 graph TD
-  A["<br/>  Potential   IUU perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;"]-->B["<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> (Decline in IUU);  <br/> #160;"]
+  A["<br/>  Potential   IUUF perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;"]-->B["<br/>  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; <br/> Observe-Decline in illegal Fishing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  <br/> #160;"]
   B-->C["Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; "]
   C-->D["Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;"]
   
@@ -74,6 +75,7 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 ## Research Design
 
 ::: {style="font-size:35px"}
+Data: Gulf of Guinea (1990-2018)
 
 Unit of analysis: Grid-cell year
 
@@ -85,7 +87,6 @@ Independent variables:
 
 -   IUU fishing decline in each grid-cell (10% or more)
 -   Opportunity: Ship traffic
-
 :::
 
 <!-- ##  {background-image="input/fishing_trend_indonesia.png" background-size="80%"} -->
@@ -103,7 +104,6 @@ Independent variables:
 ## Research Design
 
 ::: {style="font-size:35px"}
-
 Unit of analysis: Grid-cell year
 
 Presence of piracy in a grid-cell in a year? (Y-1/N-0 )
@@ -130,11 +130,9 @@ Control variable:
 <!-- https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/ -->
 
 ::: {style="font-size:22px"}
-
-
 |                       |    \(1\)     |    \(2\)     |    \(3\)     |
 |----------------------:|:------------:|:------------:|:------------:|
-|           IUU decline |  0.492\*\*   | 0.865\*\*\*  |    -0.312    |
+|          IUUF decline |  0.492\*\*   | 0.865\*\*\*  |    -0.312    |
 |                       |   (0.192)    |   (0.243)    |   (1.039)    |
 | Near nightlight dummy | 4.888\*\*\*  | 3.310\*\*\*  | 3.191\*\*\*  |
 |                       |   (0.474)    |   (0.794)    |   (0.786)    |
@@ -158,11 +156,9 @@ Control variable:
 
 ## Robustness
 
-</br> Do we find evidence that increased security patrol this year caused decline in IUU fishing (compared to last year), which in turn increased piracy onset?
+</br> Do we find evidence that increased security patrol in a given year causes the decline in IUU fishing (compared to last year), increasing piracy onset probabilities?
 
 </br>
-
-Mediation Analysis
 
 ##  {.container}
 
