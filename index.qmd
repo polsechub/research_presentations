@@ -1,13 +1,12 @@
 ---
 title: "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing"  
-
-author: 
-  - name: " --- "
-  - name: Aaron Gold, Sewanee, University of the South
-  - name: Curie Maharani, Binus University, Indonesia
-  - name: Anup Phayal, University of North Carolina Wilmington
-  - name: Brandon Prins, University of Tennessee
-  - name: Sayed Fauzan Riyadi, Raja Ali Haji Maritime University, Indonesia
+# author: 
+#   - name: "---"
+#   - name: Anup Phayal, University of North Carolina Wilmington
+#   - name: Aaron Gold, Sewanee, University of the South
+#   - name: Curie Maharani, Binus University, Indonesia
+#   - name: Brandon Prins, University of Tennessee
+#   - name: Sayed Fauzan Riyadi, Raja Ali Haji Maritime University, Indonesia
 format:
   revealjs:
     highlight-style: github
@@ -69,6 +68,7 @@ linkStyle default stroke:white,stroke-width:4px,color:white;
 *H3: with high vessel traffic and a decline in illegal fishing*
 
 <!-- ## Study area: Gulf of Guinea {.centit} -->
+
 <!-- ![](input/fish_dat.png){fig-align="center;"} -->
 
 ## Research Design
@@ -169,8 +169,7 @@ Mediation Analysis
 
 ##  {.container}
 
-Mediation Analysis Results 
- onset
+Mediation Analysis Results onset
 
 ::: {style="font-size:22px"}
 |                       | \(1\)        | \(2\)        |
@@ -190,7 +189,7 @@ Mediation Analysis Results
 | Observation           | 4685         | 4685         |
 |                       |              |              |
 
-: DV: Piracy Onset, SE in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"} 
+: DV: Piracy Onset, SE in parentheses <br/> \* p \< 0.1, \*\* p \< 0.05, \*\*\* p \< 0.01 {tbl-colwidths="\[60, 20, 20\];"}
 :::
 
 ## Questions/Comments {.centering}
