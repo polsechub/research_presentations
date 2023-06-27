@@ -96,5 +96,180 @@
     "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
     "section": "Questions/Comments",
     "text": "Questions/Comments"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NEPS 2023",
+    "section": "",
+    "text": "Load NEPS 2023 Presentation"
+  },
+  {
+    "objectID": "ethnic_somalia.html#is-illegal-fishing-related-to-maritime-piracy",
+    "href": "ethnic_somalia.html#is-illegal-fishing-related-to-maritime-piracy",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Is illegal fishing related to maritime piracy?",
+    "text": "Is illegal fishing related to maritime piracy?\n\nPast works: illegal fishing and piracy correlated\nForeign trawlers–&gt;Deplete fishery–&gt;Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)\nBut seemingly plausible, lacks evidence (Denton and Harris 2021; Jesperson 2022)\nOur focus on the local-level illegal fishing"
+  },
+  {
+    "objectID": "ethnic_somalia.html#theory",
+    "href": "ethnic_somalia.html#theory",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Theory",
+    "text": "Theory\n\n\n\n\ngraph TD\n  A[\"&lt;br/&gt;  Potential   IUUF perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  &lt;br/&gt; #160;\"]--&gt;B[\"&lt;br/&gt;  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; &lt;br/&gt; Observe-Decline in illegal Fishing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  &lt;br/&gt; #160;\"]\n  B--&gt;C[\"Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; \"]\n  C--&gt;D[\"Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;\"]\n  \nlinkStyle default stroke:white,stroke-width:4px,color:white;"
+  },
+  {
+    "objectID": "ethnic_somalia.html#hypotheses",
+    "href": "ethnic_somalia.html#hypotheses",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Hypotheses",
+    "text": "Hypotheses\n\nPiracy incidents more likely in areas\n\nH1: where illegal fishing has declined\nH2: with high commercial vessel traffic\nH3: with high vessel traffic and a decline in illegal fishing"
+  },
+  {
+    "objectID": "ethnic_somalia.html#research-design",
+    "href": "ethnic_somalia.html#research-design",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nData: Gulf of Guinea (1990-2018)\nUnit of analysis: Grid-cell year\nDV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
+  },
+  {
+    "objectID": "ethnic_somalia.html#traffic-june-2014",
+    "href": "ethnic_somalia.html#traffic-june-2014",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Traffic, June 2014",
+    "text": "Traffic, June 2014"
+  },
+  {
+    "objectID": "ethnic_somalia.html#research-design-1",
+    "href": "ethnic_somalia.html#research-design-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nUnit of analysis: Grid-cell year\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic\n\nControl variable:\n\nHow close is the water from population centers – illegal fishers/pirates need market\nPorts in each grid-cells"
+  },
+  {
+    "objectID": "ethnic_somalia.html#results",
+    "href": "ethnic_somalia.html#results",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Results",
+    "text": "Results\n\n\n\n\nGEE regression for panel data, SE in parentheses  * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUUF decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
+  },
+  {
+    "objectID": "ethnic_somalia.html#results-1",
+    "href": "ethnic_somalia.html#results-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "ethnic_somalia.html#robustness",
+    "href": "ethnic_somalia.html#robustness",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Robustness",
+    "text": "Robustness\n Do we find evidence that increased security patrol in a given year causes the decline in IUU fishing (compared to last year), increasing piracy onset probabilities?"
+  },
+  {
+    "objectID": "ethnic_somalia.html#section-1",
+    "href": "ethnic_somalia.html#section-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "Mediation Analysis"
+  },
+  {
+    "objectID": "ethnic_somalia.html#section-2",
+    "href": "ethnic_somalia.html#section-2",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "Mediation Analysis Results onset\n\n\nDV: Piracy Onset, SE in parentheses  * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01\n\n\n\n\n\n\n\n\n(1)\n(2)\n\n\n\n\nHigh patrol (lagged)\n0.463*\n0.337\n\n\n\n(0.246)\n(0.237)\n\n\nIUUF decline\n\n0.781***\n\n\n\n\n(0.226)\n\n\nHi Traffic\n1.622***\n1.732***\n\n\n\n(0.444)\n(0.446)\n\n\nNear nightlight dummy\n3.036***\n3.213***\n\n\n\n(0.778)\n(0.803)\n\n\nPort count\n1.351***\n1.377***\n\n\n\n(0.344)\n(0.352)\n\n\nConstant\n-7.814***\n-8.165***\n\n\n\n(0.712)\n(0.757)\n\n\nObservation\n4685\n4685"
+  },
+  {
+    "objectID": "ethnic_somalia.html#questionscomments",
+    "href": "ethnic_somalia.html#questionscomments",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Questions/Comments",
+    "text": "Questions/Comments"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#is-illegal-fishing-related-to-maritime-piracy",
+    "href": "iuu_gog_presentation.html#is-illegal-fishing-related-to-maritime-piracy",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Is illegal fishing related to maritime piracy?",
+    "text": "Is illegal fishing related to maritime piracy?\n\nPast works: illegal fishing and piracy correlated\nForeign trawlers–&gt;Deplete fishery–&gt;Local fishers turn to piracy (Ploch et al. 2011; Weir 2009; Desai and Shambaugh 2021)\nBut seemingly plausible, lacks evidence (Denton and Harris 2021; Jesperson 2022)\nOur focus on the local-level illegal fishing"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#theory",
+    "href": "iuu_gog_presentation.html#theory",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Theory",
+    "text": "Theory\n\n\n\n\ngraph TD\n  A[\"&lt;br/&gt;  Potential   IUUF perpetrators&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  &lt;br/&gt; #160;\"]--&gt;B[\"&lt;br/&gt;  Constraint due to enforcement          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; &lt;br/&gt; Observe-Decline in illegal Fishing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;  &lt;br/&gt; #160;\"]\n  B--&gt;C[\"Presence of opportunity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; \"]\n  C--&gt;D[\"Increase in piracy&nbsp&nbsp&nbsp&nbsp&nbsp;\"]\n  \nlinkStyle default stroke:white,stroke-width:4px,color:white;"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#hypotheses",
+    "href": "iuu_gog_presentation.html#hypotheses",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Hypotheses",
+    "text": "Hypotheses\n\nPiracy incidents more likely in areas\n\nH1: where illegal fishing has declined\nH2: with high commercial vessel traffic\nH3: with high vessel traffic and a decline in illegal fishing"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#research-design",
+    "href": "iuu_gog_presentation.html#research-design",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nData: Gulf of Guinea (1990-2018)\nUnit of analysis: Grid-cell year\nDV: Presence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#traffic-june-2014",
+    "href": "iuu_gog_presentation.html#traffic-june-2014",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Traffic, June 2014",
+    "text": "Traffic, June 2014"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#research-design-1",
+    "href": "iuu_gog_presentation.html#research-design-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Research Design",
+    "text": "Research Design\n\nUnit of analysis: Grid-cell year\nPresence of piracy in a grid-cell in a year? (Y-1/N-0 )\n\nIndependent variables:\n\nIUU fishing decline in each grid-cell (10% or more)\nOpportunity: Ship traffic\n\nControl variable:\n\nHow close is the water from population centers – illegal fishers/pirates need market\nPorts in each grid-cells"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#results",
+    "href": "iuu_gog_presentation.html#results",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Results",
+    "text": "Results\n\n\n\n\nGEE regression for panel data, SE in parentheses  * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n\n\n\n\nIUUF decline\n0.492**\n0.865***\n-0.312\n\n\n\n(0.192)\n(0.243)\n(1.039)\n\n\nNear nightlight dummy\n4.888***\n3.310***\n3.191***\n\n\n\n(0.474)\n(0.794)\n(0.786)\n\n\nPort count\n1.842***\n1.406***\n1.417***\n\n\n\n(0.266)\n(0.351)\n(0.354)\n\n\nHigh Traffic\n\n1.860***\n1.527***\n\n\n\n\n(0.454)\n(0.477)\n\n\nIUU X Traffic\n\n\n1.276\n\n\n\n\n\n(1.079)\n\n\nConstant\n-8.429***\n-8.182***\n-7.760***\n\n\n\n(0.455)\n(0.762)\n(0.817)\n\n\nObservation\n26377\n4685\n4685"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#results-1",
+    "href": "iuu_gog_presentation.html#results-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#robustness",
+    "href": "iuu_gog_presentation.html#robustness",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Robustness",
+    "text": "Robustness\n Do we find evidence that increased security patrol in a given year causes the decline in IUU fishing (compared to last year), increasing piracy onset probabilities?"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#section-1",
+    "href": "iuu_gog_presentation.html#section-1",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "Mediation Analysis"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#section-2",
+    "href": "iuu_gog_presentation.html#section-2",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "",
+    "text": "Mediation Analysis Results onset\n\n\nDV: Piracy Onset, SE in parentheses  * p &lt; 0.1, ** p &lt; 0.05, *** p &lt; 0.01\n\n\n\n\n\n\n\n\n(1)\n(2)\n\n\n\n\nHigh patrol (lagged)\n0.463*\n0.337\n\n\n\n(0.246)\n(0.237)\n\n\nIUUF decline\n\n0.781***\n\n\n\n\n(0.226)\n\n\nHi Traffic\n1.622***\n1.732***\n\n\n\n(0.444)\n(0.446)\n\n\nNear nightlight dummy\n3.036***\n3.213***\n\n\n\n(0.778)\n(0.803)\n\n\nPort count\n1.351***\n1.377***\n\n\n\n(0.344)\n(0.352)\n\n\nConstant\n-7.814***\n-8.165***\n\n\n\n(0.712)\n(0.757)\n\n\nObservation\n4685\n4685"
+  },
+  {
+    "objectID": "iuu_gog_presentation.html#questionscomments",
+    "href": "iuu_gog_presentation.html#questionscomments",
+    "title": "Why are the Gulf of Guinea Waters so Dangerous? The Expected and Unintended Consequences of Conflict, Poverty, and Illegal Fishing",
+    "section": "Questions/Comments",
+    "text": "Questions/Comments"
   }
 ]
