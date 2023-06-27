@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "research_presentations"
+  title: " "
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: NEPS 2023 (B Prins)
+      
 
 format:
   html:

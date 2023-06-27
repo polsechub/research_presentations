@@ -1,9 +1,9 @@
 ---
-title: "NEPS 2023"
+title: " "
 ---
 
 <!-- ::: {layout-valign="center"} -->
 <!-- ![](input/UNCWEntrance2.jpg){fig-align="center" width="200"} -->
 <!-- ::: -->
 
-Load [NEPS 2023 Presentation](input/BPrins_NEPS2023.pdf)
+Load [Presentation](input/BPrins_NEPS2023.pdf)
